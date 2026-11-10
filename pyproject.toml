@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools==84.2.1", "wheel==0.48.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neighborhood-projection-studio"
+version = "0.1.0"
+description = "Bounded scikit-learn PCA and exact neighborhood preservation analysis SDK"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md"]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy==2.5.4",
+    "scipy==1.18.1",
+    "scikit-learn==1.9.1",
+    "threadpoolctl==3.8.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest==9.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+namespaces = false
+
+[tool.setuptools.package-data]
+neighborhood_projection_studio = ["_notices/**/*"]
+
+[project.scripts]
+neighborhood-projection-studio = "neighborhood_projection_studio.cli:main"

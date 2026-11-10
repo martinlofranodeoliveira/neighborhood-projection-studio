@@ -1,0 +1,11 @@
+FROM node@sha256:4b150b48b4116e2a22f2c39cc27025fbf4f153e2078fd3b14d159fdb5c7279da
+WORKDIR /opt/nps-web
+COPY web/package.json web/package-lock.json ./
+# Explicit preparation only. Later checks use network none and this exact SDK.
+RUN npm ci --ignore-scripts --no-audit --no-fund && rm -rf /root/.npm
+COPY . /opt/nps-source-snapshot/
+RUN node /opt/nps-source-snapshot/scripts/web_gate.mjs --capture-sdk-source && cp /opt/nps-source-snapshot/scripts/web_gate.mjs /opt/nps-web-gate.mjs && rm -rf /opt/nps-source-snapshot
+WORKDIR /work
+USER 1000:1000
+ENTRYPOINT []
+CMD []

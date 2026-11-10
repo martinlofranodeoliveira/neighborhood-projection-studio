@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T11:15:01.273029+00:00",
+  "title": "Design System: Neighborhood Projection Studio",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Cobalt controls"
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Light plotting field"
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "stack",
+        "value": "800px"
+      },
+      {
+        "name": "narrow",
+        "value": "480px"
+      }
+    ],
+    "evidence": {
+      "scope": "Source-derived snapshot, no browser measurement or visual finish approval.",
+      "finishDisposition": "recapture",
+      "sourceSeed": "997d7f7f",
+      "tonalRamps": "Not synthesized; only authored source colors documented."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The actual import action styling; source extraction only.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Abrir estudo</button>",
+      "css": ".ds-primary{font:inherit;font-weight:600;min-height:38px;padding:7px 13px;border:1px solid #a9b5c6;border-radius:5px;cursor:pointer;background:var(--folio-accent,#1748b8);color:#fff;border-color:var(--folio-accent,#1748b8)}.ds-primary:hover{background:#123a94;border-color:#123a94}.ds-primary:focus-visible{outline:3px solid #1748b8;outline-offset:3px}.ds-primary:active{background:#dfe9ff}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "description": "Plain action with the existing bordered surface.",
+      "html": "<button type=\"button\" class=\"ds-secondary\">Exportar JSON</button>",
+      "css": ".ds-secondary{font:inherit;font-weight:600;min-height:38px;padding:7px 13px;border:1px solid #a9b5c6;border-radius:5px;cursor:pointer;background:#fff;color:#233043}.ds-secondary:hover{border-color:#1748b8;background:#f0f4ff}.ds-secondary:focus-visible{outline:3px solid #1748b8;outline-offset:3px}.ds-secondary:active{background:#dfe9ff}"
+    },
+    {
+      "name": "Search input",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Literal ID filter, using the existing input styles.",
+      "html": "<label for=\"ds-search\">ID: </label><input id=\"ds-search\" class=\"ds-search\" type=\"search\" placeholder=\"Filtrar por ID literal\">",
+      "css": ".ds-search{font:inherit;width:230px;max-width:100%;min-height:35px;border:1px solid #a9b5c6;border-radius:5px;padding:5px 9px;background:#fff;color:#233043;caret-color:#1748b8}.ds-search::placeholder{color:#526277}.ds-search:focus-visible{outline:3px solid #1748b8;outline-offset:3px}"
+    },
+    {
+      "name": "Record chip",
+      "kind": "chip",
+      "description": "Small literal-ID selection control; source shape and states.",
+      "html": "<button type=\"button\" class=\"ds-record\" aria-pressed=\"true\">p0000</button>",
+      "css": ".ds-record{font:inherit;min-height:32px;border:1px solid #1748b8;border-radius:4px;padding:4px 8px;background:#eaf0ff;color:#1748b8;cursor:pointer;font-size:.79rem;font-weight:600}.ds-record:hover{background:#f0f4ff}.ds-record:focus-visible{outline:3px solid #1748b8;outline-offset:3px}"
+    },
+    {
+      "name": "Locale control",
+      "kind": "nav",
+      "description": "The small explicit locale choice, without changing IDs or analysis.",
+      "html": "<div role=\"group\" aria-label=\"Language / Idioma\"><button type=\"button\" class=\"ds-locale\" aria-pressed=\"true\">PT-BR</button> <button type=\"button\" class=\"ds-locale\" aria-pressed=\"false\">EN</button></div>",
+      "css": ".ds-locale{font:inherit;font-weight:600;min-height:38px;padding:7px 13px;border:1px solid #a9b5c6;border-radius:5px;cursor:pointer;min-height:32px;padding:5px 9px;font-size:.81rem;background:#fff;color:#233043}.ds-locale[aria-pressed=true]{background:#eaf0ff;border-color:#1748b8;color:#123a94}.ds-locale:hover{background:#f0f4ff}.ds-locale:focus-visible{outline:3px solid #1748b8;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Survey drawing folio",
+    "overview": "This document extracts the current source in `web/src/styles.css`, `App.tsx`, `ProjectionScene.tsx`, `view.ts` and `web/index.html`. It inherits the existing `PRODUCT.md`, approved code-first direction and seed `997d7f7f`. It records authored code, not a rendered or approved interface. Browser captures, visual/contrast/accessibility assessment and independent finish review are pending; the associated evidence disposition is **recapture**.\n\nThe working scene is a light plotting field beside a connected selected-record margin. A compact study bar opens reports and chooses explicitly synthetic SDK examples. Selection connects a record's original values, its observed projected coordinates and retained, lost or introduced neighbors. The numerical model and imported data remain separate from display geometry and camera state.",
+    "keyCharacteristics": [
+      "One dominant plotting field with aligned record and rank information.",
+      "Cobalt selection, green retained relationships, patterned lost and introduced relationships, and amber introduced labels.",
+      "System sans for controls and prose; monospace for literal IDs, with tabular numerals for data.",
+      "Immediate selection and opt-in camera movement, without ambient animation."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** preserve the one-plot/connected-margin composition and literal stable IDs.",
+      "**Do** keep camera/display transformations separate from numerical analysis.",
+      "**Do** preserve the exact first-body direction comment through the production build.",
+      "**Do** keep native evidence, source inspection and browser evidence distinct."
+    ],
+    "donts": [
+      "**Don't** introduce marketing heroes, metric-card walls, ambient motion, external fonts or decorative data.",
+      "**Don't** label imported producer/hash metadata as verified execution.",
+      "**Don't** announce visual, GPU, pointer or accessibility approval without valid browser evidence and the finish review."
+    ]
+  }
+}

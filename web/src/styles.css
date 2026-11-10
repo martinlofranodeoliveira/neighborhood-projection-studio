@@ -1,0 +1,199 @@
+/* Codex support, original complete stylesheet. Survey drawing folio, seed 997d7f7f.
+   Authored from the four complete runtime files; no partial model CSS used. */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #233043;
+  background: #f5f7fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --folio-ink: #233043;
+  --folio-ink-muted: #526277;
+  --folio-surface: #fff;
+  --folio-field: #fbfcfe;
+  --folio-border: #cbd3df;
+  --folio-accent: #1748b8;
+  --folio-accent-soft: #eaf0ff;
+  --folio-retained: #166534;
+  --folio-lost: #465267;
+  --folio-introduced: #92400e;
+  --folio-mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 15px; line-height: 1.5; }
+button, input, select { font: inherit; }
+button { touch-action: manipulation; }
+button, a, input { -webkit-tap-highlight-color: #dce7ff; }
+::selection { background: #cbdcff; color: #122d68; }
+input { caret-color: var(--folio-accent); }
+a { color: var(--folio-accent); text-underline-offset: .18em; }
+:focus-visible { outline: 3px solid var(--folio-accent); outline-offset: 3px; }
+* { scrollbar-color: #78869b #edf1f6; scrollbar-width: thin; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #edf1f6; }
+::-webkit-scrollbar-thumb { background: #78869b; border: 2px solid #edf1f6; border-radius: 5px; }
+h1, h2, h3, h4, p { margin-top: 0; }
+h1, h2, h3, h4 { line-height: 1.25; text-wrap: balance; }
+button:disabled { cursor: not-allowed; color: #68768b; background: #f0f3f7; }
+.tabular-num, .mono-id, .neighbor-rank { font-variant-numeric: tabular-nums; }
+.mono-id { font-family: var(--folio-mono); overflow-wrap: anywhere; }
+.folio-Shell { max-width: 1760px; margin: 0 auto; padding: 24px 30px 40px; }
+.folio-TopBar { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 32px; padding-bottom: 22px; border-bottom: 1px solid var(--folio-border); }
+.folio-BrandBlock { flex: 1 1 310px; min-width: 0; }
+.folio-AppTitle { margin: 0 0 6px; font-size: 1.45rem; letter-spacing: -.025em; }
+.folio-AppSubtitle { margin: 0; color: var(--folio-ink-muted); max-width: 65ch; font-size: .91rem; }
+.folio-ActionsBar, .folio-SampleGroup, .folio-LocaleSwitch, .folio-SearchControls, .folio-PaginationControls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.folio-ActionsBar { flex: 1 1 460px; justify-content: flex-end; }
+.folio-SampleGroup { gap: 6px; }
+.folio-LocaleSwitch { margin-left: 4px; padding-left: 12px; border-left: 1px solid var(--folio-border); }
+.folio-ControlLabel { font-size: .83rem; font-weight: 600; color: var(--folio-ink-muted); }
+.folio-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; padding: 7px 13px; border: 1px solid #a9b5c6; border-radius: 5px; background: var(--folio-surface); color: var(--folio-ink); font-weight: 600; line-height: 1.25; cursor: pointer; text-align: center; }
+.folio-btn:hover:not(:disabled), .scene-RecordChip:hover { border-color: var(--folio-accent); background: #f0f4ff; }
+.folio-btn:active:not(:disabled) { background: #dfe9ff; }
+.folio-btn-primary { color: #fff; background: var(--folio-accent); border-color: var(--folio-accent); }
+.folio-btn-primary:hover:not(:disabled) { color: #fff; background: #123a94; border-color: #123a94; }
+.folio-btn-sm { min-height: 32px; padding: 5px 9px; font-size: .81rem; }
+.folio-btn-icon { width: 35px; padding: 4px; font-size: 1.1rem; }
+.folio-btn.is-active, .folio-btn.is-camera-active { color: #123a94; background: var(--folio-accent-soft); border-color: var(--folio-accent); }
+.folio-ProvenanceBadge { font-size: .78rem; flex: 1 1 100%; text-align: right; color: var(--folio-ink-muted); }
+.folio-ProvenanceBadge.is-unverified { color: #7c3d13; }
+.folio-FileInputHidden { display: none; }
+.folio-StatusBanner { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 16px; margin-top: 14px; border: 1px solid var(--folio-border); border-radius: 5px; background: var(--folio-surface); }
+.folio-StatusBanner.is-error { color: #842c25; border-color: #c99791; background: #fff8f7; }
+.folio-StatusBanner.is-loading { color: #174283; background: #eef4ff; }
+.folio-ErrorPreserved { display: block; margin-top: 3px; font-size: .85rem; }
+.folio-EmptyState { padding: 72px 0; max-width: 70ch; }
+.folio-EmptyCopy { margin: 14px 0 24px; color: var(--folio-ink-muted); }
+.folio-SectionTitle { font-size: 1.1rem; margin: 0; }
+.folio-DiagnosticStrip { padding: 16px 0; border-bottom: 1px solid var(--folio-border); }
+.folio-DiagnosticMetrics { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: .84rem; }
+.folio-DiagItem { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 4px; }
+.folio-DiagLabel { color: var(--folio-ink-muted); }
+.folio-DiagnosticFlags { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin-top: 8px; font-size: .8rem; }
+.folio-FlagList { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 5px 16px; }
+.folio-FlagBadge { color: #7c3d13; }
+.folio-FlagClean { color: var(--folio-ink-muted); }
+.folio-Workspace { display: grid; grid-template-columns: minmax(0, 3fr) minmax(320px, 1fr); align-items: start; }
+.folio-PlotColumn { min-width: 0; padding: 18px 24px 24px 0; }
+.folio-MarginColumn { min-width: 0; border-left: 1px solid var(--folio-border); padding: 22px 0 16px 22px; }
+.folio-InspectorCard { min-width: 0; }
+.folio-LayerLegendBar { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 10px; margin-bottom: 18px; }
+.folio-LayerToggle { min-height: 34px; padding: 5px 10px; border: 1px solid transparent; border-radius: 4px; background: transparent; font-size: .81rem; font-weight: 600; cursor: pointer; }
+.folio-LayerToggle.is-retained { color: var(--folio-retained); }
+.folio-LayerToggle.is-lost { color: var(--folio-lost); }
+.folio-LayerToggle.is-introduced { color: var(--folio-introduced); }
+.folio-LayerToggle.is-on { border-color: currentColor; background: #fff; }
+.folio-LayerToggle.is-off { text-decoration: line-through; text-underline-offset: .16em; }
+.folio-LayerToggle:hover { background: #e9eef6; }
+.layer-symbol { display: inline-block; min-width: 30px; margin-right: 5px; }
+.folio-SelectedHeader { display: flex; flex-wrap: wrap; gap: 12px; align-items: baseline; justify-content: space-between; }
+.folio-MarginLabel { display: block; color: var(--folio-ink-muted); font-size: .85rem; }
+.folio-SelectedId { margin: 5px 0 0; font-size: 1.3rem; color: var(--folio-accent); }
+.folio-SelectedQuickStats { display: flex; flex-wrap: wrap; gap: 5px 12px; }
+.folio-StatPill { font-size: .78rem; font-weight: 600; }
+.folio-SectionBlock { margin-top: 24px; padding-top: 14px; border-top: 1px solid var(--folio-border); }
+.folio-Subheading { font-size: .88rem; margin: 0 0 12px; font-weight: 650; }
+.folio-CoordGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.folio-CoordCell { min-width: 0; font-size: .79rem; overflow-wrap: anywhere; }
+.coord-axis { display: block; color: var(--folio-ink-muted); font-size: .73rem; margin-bottom: 3px; }
+.folio-FeatureList { margin: 0; }
+.folio-FeatureRow { display: flex; justify-content: space-between; gap: 12px; padding: 5px 0; border-bottom: 1px solid #e6ebf2; font-size: .8rem; }
+.folio-FeatureRow dt { min-width: 0; }
+.folio-FeatureRow dd { margin: 0; text-align: right; }
+.folio-NeighborComparisonGrid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 18px; }
+.folio-ColHeader { margin: 0 0 6px; font-size: .8rem; color: var(--folio-ink-muted); }
+.folio-OrderedNeighborList { margin: 0; padding: 0; list-style: none; }
+.folio-NeighborRow { display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 7px; align-items: baseline; padding: 5px 0; border-bottom: 1px solid #e6ebf2; font-size: .8rem; }
+.neighbor-rank { color: var(--folio-ink-muted); font-size: .73rem; }
+.folio-LinkBtn { padding: 0; border: 0; background: transparent; color: var(--folio-accent); cursor: pointer; text-align: left; text-decoration: underline; text-underline-offset: .18em; }
+.folio-LinkBtn:hover { color: #102d73; text-decoration-thickness: 2px; }
+.cat-tag { white-space: nowrap; font-size: .7rem; }
+.cat-tag.is-retained { color: var(--folio-retained); }
+.cat-tag.is-lost { color: var(--folio-lost); }
+.cat-tag.is-introduced { color: var(--folio-introduced); }
+.folio-TableScroll { max-width: 100%; overflow-x: auto; }
+.folio-Table { width: 100%; border-collapse: collapse; text-align: left; font-size: .78rem; }
+.folio-Table th { color: var(--folio-ink-muted); font-size: .73rem; font-weight: 600; white-space: nowrap; }
+.folio-Table th, .folio-Table td { padding: 8px 10px; border-bottom: 1px solid #dce3ed; vertical-align: top; }
+.folio-Table th:first-child, .folio-Table td:first-child { padding-left: 0; }
+.folio-Table tbody tr:hover { background: #f0f4fb; }
+.folio-Table .is-selected-row { background: var(--folio-accent-soft); }
+.folio-Table .is-selected-row td { font-weight: 600; }
+.folio-ConstantNote { font-size: .87rem; color: var(--folio-ink-muted); }
+.folio-LowerDeck { padding-top: 22px; border-top: 1px solid var(--folio-border); }
+.folio-CatalogueHeader { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-bottom: 14px; }
+.folio-PaginationControls { margin-left: auto; }
+.folio-PageInfo { font-size: .8rem; color: var(--folio-ink-muted); }
+.folio-SearchInput { width: 230px; max-width: 100%; min-height: 35px; border: 1px solid #a9b5c6; border-radius: 5px; padding: 5px 9px; background: #fff; color: var(--folio-ink); }
+.folio-SearchInput::placeholder { color: var(--folio-ink-muted); }
+.folio-CatalogueTable { min-width: 680px; font-size: .84rem; }
+.folio-MethodNote { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--folio-border); max-width: 100ch; }
+.folio-MethodList { margin: 0; padding-left: 18px; color: var(--folio-ink-muted); font-size: .84rem; }
+.folio-MethodList li + li { margin-top: 8px; }
+.scene-Container { min-width: 0; }
+.scene-ControlBar, .scene-CameraToolbar, .scene-HeadingGroup, .scene-ModeSwitch, .scene-StepButtons { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.scene-ControlBar { justify-content: space-between; gap: 12px; }
+.scene-HeadingGroup { gap: 10px 18px; }
+.scene-Title { margin: 0; font-size: 1rem; }
+.scene-SubtleInstruction { max-width: 75ch; font-size: .8rem; color: var(--folio-ink-muted); margin: 12px 0; }
+.scene-FallbackBanner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 10px 0; font-size: .8rem; color: #7c3d13; }
+.scene-Viewport { width: 100%; height: clamp(350px, 60vh, 720px); position: relative; border: 1px solid var(--folio-border); background: var(--folio-field); border-radius: 3px; overflow: hidden; }
+.scene-Viewport.is-camera-exploring { border-color: var(--folio-accent); }
+.scene-Viewport > div, .scene-Viewport canvas { width: 100%; height: 100%; display: block; }
+.scene-Svg2D { width: 100%; height: 100%; display: block; }
+.scene-Svg2D > rect:first-child { fill: var(--folio-field); }
+.scene-SvgPointGroup { cursor: pointer; }
+.scene-SvgPointGroup:hover { filter: brightness(.75); }
+.scene-AxisScaleFooter { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; margin-top: 12px; color: var(--folio-ink-muted); font-size: .75rem; }
+.scene-AxisScaleLabel { flex: 1 1 100%; }
+.scene-AxisScaleBadge { font-variant-numeric: tabular-nums; }
+.scene-CoincidentBar { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--folio-border); font-size: .82rem; }
+.scene-CoincidentTitle { display: block; margin-bottom: 8px; }
+.scene-CoincidentChips, .scene-ConstantSelectorGrid { display: flex; flex-wrap: wrap; gap: 6px; }
+.scene-RecordChip { min-height: 32px; border: 1px solid #a9b5c6; border-radius: 4px; padding: 4px 8px; background: #fff; color: var(--folio-ink); cursor: pointer; font-size: .79rem; }
+.scene-RecordChip.is-selected { color: var(--folio-accent); border-color: var(--folio-accent); background: var(--folio-accent-soft); font-weight: 600; }
+.scene-ConstantSheet { padding: 24px 0; }
+.scene-ConstantHeader { max-width: 75ch; }
+.scene-ConstantCopy { margin: 12px 0 22px; color: var(--folio-ink-muted); font-size: .9rem; }
+@media (max-width: 1100px) {
+  .folio-Shell { padding: 20px; }
+  .folio-Workspace { grid-template-columns: minmax(0, 2fr) minmax(300px, 1fr); }
+  .folio-PlotColumn { padding-right: 18px; }
+  .folio-MarginColumn { padding-left: 18px; }
+  .folio-ActionsBar { justify-content: flex-start; }
+  .folio-ProvenanceBadge { text-align: left; }
+  .folio-PaginationControls { margin-left: 0; }
+}
+@media (max-width: 800px) {
+  .folio-Workspace { display: block; }
+  .folio-PlotColumn { padding-right: 0; }
+  .folio-MarginColumn { border-left: 0; border-top: 1px solid var(--folio-border); padding: 24px 0; }
+  .folio-NeighborComparisonGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .folio-CoordGrid { max-width: 500px; }
+  .scene-Viewport { height: clamp(320px, 56vh, 600px); }
+}
+@media (max-width: 480px) {
+  .folio-Shell { padding: 16px 12px 30px; }
+  .folio-AppTitle { font-size: 1.25rem; }
+  .folio-AppSubtitle { font-size: .84rem; }
+  .folio-TopBar { gap: 16px; }
+  .folio-LocaleSwitch { margin-left: 0; padding-left: 8px; }
+  .folio-SampleGroup { flex-basis: 100%; }
+  .folio-NeighborComparisonGrid { grid-template-columns: minmax(0, 1fr); }
+  .folio-SearchControls { width: 100%; }
+  .folio-SearchInput { width: min(240px, 80vw); }
+  .folio-StatusBanner { align-items: flex-start; }
+  .scene-Viewport { height: 340px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
+@media print {
+  body { background: #fff; font-size: 11px; }
+  .folio-Shell { padding: 0; max-width: none; }
+  .folio-ActionsBar, .scene-CameraToolbar, .scene-ModeSwitch, .folio-SearchControls, .folio-PaginationControls { display: none; }
+  .folio-Workspace { display: block; }
+  .folio-MarginColumn { border-left: 0; padding-left: 0; }
+  .scene-Viewport { height: 380px; }
+  .folio-TableScroll { overflow: visible; }
+}

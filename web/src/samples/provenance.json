@@ -1,0 +1,28 @@
+{
+  "status": "ACTUAL_INSTALLED_FIXED_SDK_SYNTHETIC_SAMPLE",
+  "module": "/opt/neighborhood-sdk/lib/python3.13/site-packages/neighborhood_projection_studio/__init__.py",
+  "rows": 64,
+  "features": 8,
+  "k": 5,
+  "json_bytes": 101421,
+  "json_sha256": "78f51724fbd42f1507b321cf28012abcaa0ff6577baa26817c970f6201dd62f5",
+  "csv_bytes": 5137,
+  "csv_sha256": "b7d2ef2399cd2cf15dc91814501b246f7ae1bd3cde39d319d4af959b218bd672",
+  "test_counts": {
+    "tests": 79,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "pytest_exit": 0,
+    "test_authorship": "Codex support;0complete Argon testfiles"
+  },
+  "source_module_hashes": {
+    "src/neighborhood_projection_studio/__init__.py": "5db1ce873ed2554b9bed8fc20546fbfaa10b4fb3e3ee57096ddce5cb70b6ab48",
+    "src/neighborhood_projection_studio/_ranks.py": "2e494aefaf70ccb7655cb2556c8ac8ed9e9aaafe02ff5a712c8883dc5d66ae4f",
+    "src/neighborhood_projection_studio/core.py": "432c1b72af5b6cdb3f9066430da5b951a9b5b9a8921250773a46b784aa1ea6f5",
+    "src/neighborhood_projection_studio/types.py": "0871c734cbefe1779c7bc50ff1771e75b5b7a0a3e098cf57f4555cf96b18ccad"
+  },
+  "scope": "Actual fixed SDK output on seeded synthetic rows; not model quality, browser proof or import authenticity.",
+  "source_provenance_path": "core-fix-v1/gate-context/evidence/samples/provenance.json",
+  "note": "Copied actual installed SDK synthetic output, not a literal oracle. Rebind/regenerate if audited core source changes before release."
+}

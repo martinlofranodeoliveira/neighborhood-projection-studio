@@ -1,0 +1,14 @@
+include *.md LICENSE MANIFEST.in pyproject.toml requirements*.lock Dockerfile* .gitignore .dockerignore
+recursive-include src *.py *.txt *.md LICENSE* COPYING* NOTICE*
+recursive-include tests *.py *.json *.csv
+recursive-include examples *.json *.csv
+recursive-include scripts *.py *.sh *.mjs
+recursive-include docs *.md *.json
+recursive-include provenance *.json
+recursive-include .github *.yml *.yaml
+recursive-include web *
+recursive-include .impeccable *.json
+prune web/node_modules
+prune web/dist
+prune web/build
+global-exclude __pycache__ *.py[cod]

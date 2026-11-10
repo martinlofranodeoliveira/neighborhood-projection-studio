@@ -1,0 +1,995 @@
+{
+  "status": "INDEPENDENT_PRE_PRODUCT_LITERAL_ORACLE_NOT_ACCEPTANCE_OF_ABSENT_PRODUCT",
+  "mechanism": "Exact integer squared distances; self excluded; ties sorted by ASCII row ID; rank1 is nearest other row. Literal projection discards fourth coordinate. No NumPy/sklearn/PCA/product code imported.",
+  "important_scope": "These exact tie goldens qualify the original rank/receipt kernel only. They are NOT expected bitwise results of native PCA, whose floating output can perturb ties. Native PCA requires separate tie-free/degeneracy qualification. This is not research novelty, model accuracy or adoption evidence.",
+  "rows": [
+    {
+      "id": "p0000",
+      "input": [
+        -6,
+        -4,
+        -2,
+        -1
+      ],
+      "projection": [
+        -6,
+        -4,
+        -2
+      ]
+    },
+    {
+      "id": "p0001",
+      "input": [
+        -6,
+        -4,
+        -2,
+        1
+      ],
+      "projection": [
+        -6,
+        -4,
+        -2
+      ]
+    },
+    {
+      "id": "p0010",
+      "input": [
+        -6,
+        -4,
+        2,
+        -1
+      ],
+      "projection": [
+        -6,
+        -4,
+        2
+      ]
+    },
+    {
+      "id": "p0011",
+      "input": [
+        -6,
+        -4,
+        2,
+        1
+      ],
+      "projection": [
+        -6,
+        -4,
+        2
+      ]
+    },
+    {
+      "id": "p0100",
+      "input": [
+        -6,
+        4,
+        -2,
+        -1
+      ],
+      "projection": [
+        -6,
+        4,
+        -2
+      ]
+    },
+    {
+      "id": "p0101",
+      "input": [
+        -6,
+        4,
+        -2,
+        1
+      ],
+      "projection": [
+        -6,
+        4,
+        -2
+      ]
+    },
+    {
+      "id": "p0110",
+      "input": [
+        -6,
+        4,
+        2,
+        -1
+      ],
+      "projection": [
+        -6,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "p0111",
+      "input": [
+        -6,
+        4,
+        2,
+        1
+      ],
+      "projection": [
+        -6,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "p1000",
+      "input": [
+        6,
+        -4,
+        -2,
+        -1
+      ],
+      "projection": [
+        6,
+        -4,
+        -2
+      ]
+    },
+    {
+      "id": "p1001",
+      "input": [
+        6,
+        -4,
+        -2,
+        1
+      ],
+      "projection": [
+        6,
+        -4,
+        -2
+      ]
+    },
+    {
+      "id": "p1010",
+      "input": [
+        6,
+        -4,
+        2,
+        -1
+      ],
+      "projection": [
+        6,
+        -4,
+        2
+      ]
+    },
+    {
+      "id": "p1011",
+      "input": [
+        6,
+        -4,
+        2,
+        1
+      ],
+      "projection": [
+        6,
+        -4,
+        2
+      ]
+    },
+    {
+      "id": "p1100",
+      "input": [
+        6,
+        4,
+        -2,
+        -1
+      ],
+      "projection": [
+        6,
+        4,
+        -2
+      ]
+    },
+    {
+      "id": "p1101",
+      "input": [
+        6,
+        4,
+        -2,
+        1
+      ],
+      "projection": [
+        6,
+        4,
+        -2
+      ]
+    },
+    {
+      "id": "p1110",
+      "input": [
+        6,
+        4,
+        2,
+        -1
+      ],
+      "projection": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "p1111",
+      "input": [
+        6,
+        4,
+        2,
+        1
+      ],
+      "projection": [
+        6,
+        4,
+        2
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "k": 1,
+      "rank_penalty": 0,
+      "trustworthiness_fraction": [
+        1,
+        1
+      ],
+      "neighbor_retention_fraction": [
+        1,
+        1
+      ],
+      "receipts": [
+        {
+          "id": "p0000",
+          "input_neighbors": [
+            "p0001"
+          ],
+          "output_neighbors": [
+            "p0001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0001",
+          "input_neighbors": [
+            "p0000"
+          ],
+          "output_neighbors": [
+            "p0000"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0010",
+          "input_neighbors": [
+            "p0011"
+          ],
+          "output_neighbors": [
+            "p0011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0011",
+          "input_neighbors": [
+            "p0010"
+          ],
+          "output_neighbors": [
+            "p0010"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0100",
+          "input_neighbors": [
+            "p0101"
+          ],
+          "output_neighbors": [
+            "p0101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0101",
+          "input_neighbors": [
+            "p0100"
+          ],
+          "output_neighbors": [
+            "p0100"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0110",
+          "input_neighbors": [
+            "p0111"
+          ],
+          "output_neighbors": [
+            "p0111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p0111",
+          "input_neighbors": [
+            "p0110"
+          ],
+          "output_neighbors": [
+            "p0110"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1000",
+          "input_neighbors": [
+            "p1001"
+          ],
+          "output_neighbors": [
+            "p1001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1001",
+          "input_neighbors": [
+            "p1000"
+          ],
+          "output_neighbors": [
+            "p1000"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1010",
+          "input_neighbors": [
+            "p1011"
+          ],
+          "output_neighbors": [
+            "p1011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1011",
+          "input_neighbors": [
+            "p1010"
+          ],
+          "output_neighbors": [
+            "p1010"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1100",
+          "input_neighbors": [
+            "p1101"
+          ],
+          "output_neighbors": [
+            "p1101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1101",
+          "input_neighbors": [
+            "p1100"
+          ],
+          "output_neighbors": [
+            "p1100"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1110",
+          "input_neighbors": [
+            "p1111"
+          ],
+          "output_neighbors": [
+            "p1111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        },
+        {
+          "id": "p1111",
+          "input_neighbors": [
+            "p1110"
+          ],
+          "output_neighbors": [
+            "p1110"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 1
+        }
+      ]
+    },
+    {
+      "k": 2,
+      "rank_penalty": 8,
+      "trustworthiness_fraction": [
+        49,
+        50
+      ],
+      "neighbor_retention_fraction": [
+        3,
+        4
+      ],
+      "receipts": [
+        {
+          "id": "p0000",
+          "input_neighbors": [
+            "p0001",
+            "p0010"
+          ],
+          "output_neighbors": [
+            "p0001",
+            "p0010"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p0001",
+          "input_neighbors": [
+            "p0000",
+            "p0011"
+          ],
+          "output_neighbors": [
+            "p0000",
+            "p0010"
+          ],
+          "intruders": [
+            {
+              "id": "p0010",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p0010",
+          "input_neighbors": [
+            "p0011",
+            "p0000"
+          ],
+          "output_neighbors": [
+            "p0011",
+            "p0000"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p0011",
+          "input_neighbors": [
+            "p0010",
+            "p0001"
+          ],
+          "output_neighbors": [
+            "p0010",
+            "p0000"
+          ],
+          "intruders": [
+            {
+              "id": "p0000",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p0100",
+          "input_neighbors": [
+            "p0101",
+            "p0110"
+          ],
+          "output_neighbors": [
+            "p0101",
+            "p0110"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p0101",
+          "input_neighbors": [
+            "p0100",
+            "p0111"
+          ],
+          "output_neighbors": [
+            "p0100",
+            "p0110"
+          ],
+          "intruders": [
+            {
+              "id": "p0110",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p0110",
+          "input_neighbors": [
+            "p0111",
+            "p0100"
+          ],
+          "output_neighbors": [
+            "p0111",
+            "p0100"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p0111",
+          "input_neighbors": [
+            "p0110",
+            "p0101"
+          ],
+          "output_neighbors": [
+            "p0110",
+            "p0100"
+          ],
+          "intruders": [
+            {
+              "id": "p0100",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p1000",
+          "input_neighbors": [
+            "p1001",
+            "p1010"
+          ],
+          "output_neighbors": [
+            "p1001",
+            "p1010"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p1001",
+          "input_neighbors": [
+            "p1000",
+            "p1011"
+          ],
+          "output_neighbors": [
+            "p1000",
+            "p1010"
+          ],
+          "intruders": [
+            {
+              "id": "p1010",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p1010",
+          "input_neighbors": [
+            "p1011",
+            "p1000"
+          ],
+          "output_neighbors": [
+            "p1011",
+            "p1000"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p1011",
+          "input_neighbors": [
+            "p1010",
+            "p1001"
+          ],
+          "output_neighbors": [
+            "p1010",
+            "p1000"
+          ],
+          "intruders": [
+            {
+              "id": "p1000",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p1100",
+          "input_neighbors": [
+            "p1101",
+            "p1110"
+          ],
+          "output_neighbors": [
+            "p1101",
+            "p1110"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p1101",
+          "input_neighbors": [
+            "p1100",
+            "p1111"
+          ],
+          "output_neighbors": [
+            "p1100",
+            "p1110"
+          ],
+          "intruders": [
+            {
+              "id": "p1110",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        },
+        {
+          "id": "p1110",
+          "input_neighbors": [
+            "p1111",
+            "p1100"
+          ],
+          "output_neighbors": [
+            "p1111",
+            "p1100"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 2
+        },
+        {
+          "id": "p1111",
+          "input_neighbors": [
+            "p1110",
+            "p1101"
+          ],
+          "output_neighbors": [
+            "p1110",
+            "p1100"
+          ],
+          "intruders": [
+            {
+              "id": "p1100",
+              "input_rank": 3,
+              "penalty": 1
+            }
+          ],
+          "penalty": 1,
+          "retained": 1
+        }
+      ]
+    },
+    {
+      "k": 3,
+      "rank_penalty": 0,
+      "trustworthiness_fraction": [
+        1,
+        1
+      ],
+      "neighbor_retention_fraction": [
+        1,
+        1
+      ],
+      "receipts": [
+        {
+          "id": "p0000",
+          "input_neighbors": [
+            "p0001",
+            "p0010",
+            "p0011"
+          ],
+          "output_neighbors": [
+            "p0001",
+            "p0010",
+            "p0011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0001",
+          "input_neighbors": [
+            "p0000",
+            "p0011",
+            "p0010"
+          ],
+          "output_neighbors": [
+            "p0000",
+            "p0010",
+            "p0011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0010",
+          "input_neighbors": [
+            "p0011",
+            "p0000",
+            "p0001"
+          ],
+          "output_neighbors": [
+            "p0011",
+            "p0000",
+            "p0001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0011",
+          "input_neighbors": [
+            "p0010",
+            "p0001",
+            "p0000"
+          ],
+          "output_neighbors": [
+            "p0010",
+            "p0000",
+            "p0001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0100",
+          "input_neighbors": [
+            "p0101",
+            "p0110",
+            "p0111"
+          ],
+          "output_neighbors": [
+            "p0101",
+            "p0110",
+            "p0111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0101",
+          "input_neighbors": [
+            "p0100",
+            "p0111",
+            "p0110"
+          ],
+          "output_neighbors": [
+            "p0100",
+            "p0110",
+            "p0111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0110",
+          "input_neighbors": [
+            "p0111",
+            "p0100",
+            "p0101"
+          ],
+          "output_neighbors": [
+            "p0111",
+            "p0100",
+            "p0101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p0111",
+          "input_neighbors": [
+            "p0110",
+            "p0101",
+            "p0100"
+          ],
+          "output_neighbors": [
+            "p0110",
+            "p0100",
+            "p0101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1000",
+          "input_neighbors": [
+            "p1001",
+            "p1010",
+            "p1011"
+          ],
+          "output_neighbors": [
+            "p1001",
+            "p1010",
+            "p1011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1001",
+          "input_neighbors": [
+            "p1000",
+            "p1011",
+            "p1010"
+          ],
+          "output_neighbors": [
+            "p1000",
+            "p1010",
+            "p1011"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1010",
+          "input_neighbors": [
+            "p1011",
+            "p1000",
+            "p1001"
+          ],
+          "output_neighbors": [
+            "p1011",
+            "p1000",
+            "p1001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1011",
+          "input_neighbors": [
+            "p1010",
+            "p1001",
+            "p1000"
+          ],
+          "output_neighbors": [
+            "p1010",
+            "p1000",
+            "p1001"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1100",
+          "input_neighbors": [
+            "p1101",
+            "p1110",
+            "p1111"
+          ],
+          "output_neighbors": [
+            "p1101",
+            "p1110",
+            "p1111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1101",
+          "input_neighbors": [
+            "p1100",
+            "p1111",
+            "p1110"
+          ],
+          "output_neighbors": [
+            "p1100",
+            "p1110",
+            "p1111"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1110",
+          "input_neighbors": [
+            "p1111",
+            "p1100",
+            "p1101"
+          ],
+          "output_neighbors": [
+            "p1111",
+            "p1100",
+            "p1101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        },
+        {
+          "id": "p1111",
+          "input_neighbors": [
+            "p1110",
+            "p1101",
+            "p1100"
+          ],
+          "output_neighbors": [
+            "p1110",
+            "p1100",
+            "p1101"
+          ],
+          "intruders": [],
+          "penalty": 0,
+          "retained": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1432 @@
+[
+  {
+    "path": "node_modules/@asamuzakjp/css-color",
+    "name": "@asamuzakjp/css-color",
+    "version": "7.1.9",
+    "license": "MIT",
+    "integrity": "sha512-vZ6JQVq8Ivgz6b/IBlAf90wZviXdluY13cQOPO+nJHbmXwGrPl2GcpqUY7a55/8ZVdfONXpCFMpRijOBCHNlcQ==",
+    "resolved": "https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-7.1.9.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@asamuzakjp/css-color/LICENSE",
+        "bytes": 1093,
+        "sha256": "bd4539377980dd797fc6a51d90e664e52b2b2625b2158f01d4c68b5fe107eacb",
+        "original_notice_path": "notices/node_modules/@asamuzakjp/css-color/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@asamuzakjp/css-color"
+  },
+  {
+    "path": "node_modules/@asamuzakjp/dom-selector",
+    "name": "@asamuzakjp/dom-selector",
+    "version": "10.0.5",
+    "license": "MIT",
+    "integrity": "sha512-EgmJ7oEaGQECTn3H3wmnQpEy4hKY66VvM7VQndwPIQob3p877BgbyOUE3EX0LgXQCciF2H8KMdR+RznqjMNOLw==",
+    "resolved": "https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-10.0.5.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@asamuzakjp/dom-selector/LICENSE",
+        "bytes": 1093,
+        "sha256": "7cdf9db3b91cc77b9ec947ad0c7126140f00e34528b67c3a58e9fc1a98055e14",
+        "original_notice_path": "notices/node_modules/@asamuzakjp/dom-selector/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@asamuzakjp/dom-selector"
+  },
+  {
+    "path": "node_modules/@babel/runtime",
+    "name": "@babel/runtime",
+    "version": "7.29.13",
+    "license": "MIT",
+    "integrity": "sha512-v+oN26xP4YIlQsbQ/CbTH1WG5m/l/DjKKZNy/Kp3f/AFvbgt7Em/D0FeMM3O2hX0YzeN2M16W8lOpyhIkfCBcQ==",
+    "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.13.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@babel/runtime/LICENSE",
+        "bytes": 1106,
+        "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+        "original_notice_path": "notices/node_modules/@babel/runtime/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@babel/runtime"
+  },
+  {
+    "path": "node_modules/@bramus/specificity",
+    "name": "@bramus/specificity",
+    "version": "2.4.3",
+    "license": "MIT",
+    "integrity": "sha512-0GEz8qJWokkUVYQYRukmkSHIFNoBH8QTreeHrAFbvz1XFYc3Y+puhMs8PQ5x8GNugiC2l5jvDBXKLbBIByeSBw==",
+    "resolved": "https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@bramus/specificity/LICENSE",
+        "bytes": 1083,
+        "sha256": "ae842a63dd9bc829c95a2ec22dda25a08e422a368b71dbca67a45cde7c4a4b81",
+        "original_notice_path": "notices/node_modules/@bramus/specificity/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@bramus/specificity"
+  },
+  {
+    "path": "node_modules/@csstools/color-helpers",
+    "name": "@csstools/color-helpers",
+    "version": "6.1.2",
+    "license": "MIT-0",
+    "integrity": "sha512-grhRy3OKmniaAEKXMjua5z/EODX0MSqBGjunw8+j/3HQjOnahs2AGhvEOIYVUWcU6ScApbhLhVrQTX8XqrMrow==",
+    "resolved": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/color-helpers/LICENSE.md",
+        "bytes": 930,
+        "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+        "original_notice_path": "notices/node_modules/@csstools/color-helpers/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/color-helpers"
+  },
+  {
+    "path": "node_modules/@csstools/css-calc",
+    "name": "@csstools/css-calc",
+    "version": "3.4.3",
+    "license": "MIT",
+    "integrity": "sha512-iex20d8CHVkyvg6B7UKV7uHnI2Bqo9g+EFfT9E0y+GvTvhZ/DwONJ+9aKb1dlqm0ZiGsL5RXjp0fCoJYnkeDjA==",
+    "resolved": "https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/css-calc/LICENSE.md",
+        "bytes": 1111,
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "original_notice_path": "notices/node_modules/@csstools/css-calc/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/css-calc"
+  },
+  {
+    "path": "node_modules/@csstools/css-color-parser",
+    "name": "@csstools/css-color-parser",
+    "version": "4.2.7",
+    "license": "MIT",
+    "integrity": "sha512-zgm9yjQz5iJB4VL8RyVwd71TWB8Q89FSxt/NzXoWqPSkEBOVtn9L6vAPtSc9hpKfB0Awo/AL2VKFHjYetBLFHQ==",
+    "resolved": "https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.7.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/css-color-parser/LICENSE.md",
+        "bytes": 1111,
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "original_notice_path": "notices/node_modules/@csstools/css-color-parser/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/css-color-parser"
+  },
+  {
+    "path": "node_modules/@csstools/css-parser-algorithms",
+    "name": "@csstools/css-parser-algorithms",
+    "version": "4.0.2",
+    "license": "MIT",
+    "integrity": "sha512-40cSKyMvK+tq4qz6Awrlye2WGuOKt3FwPgtGg6KTfbHOWNw+Rk1rzbAtZnZ6IBhsY491HLRnDXwoyBAijmmILA==",
+    "resolved": "https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/css-parser-algorithms/LICENSE.md",
+        "bytes": 1111,
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "original_notice_path": "notices/node_modules/@csstools/css-parser-algorithms/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/css-parser-algorithms"
+  },
+  {
+    "path": "node_modules/@csstools/css-syntax-patches-for-csstree",
+    "name": "@csstools/css-syntax-patches-for-csstree",
+    "version": "1.1.16",
+    "license": "MIT-0",
+    "integrity": "sha512-LsDbJPP/B8cPasUJyTA5S99F7C4G93ngW8hUluXz8CFeOaaRnBPtBiIlvgcPYU0HmHNz8CXg+1vwFrIB4F6Dgw==",
+    "resolved": "https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.16.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/css-syntax-patches-for-csstree/LICENSE.md",
+        "bytes": 930,
+        "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+        "original_notice_path": "notices/node_modules/@csstools/css-syntax-patches-for-csstree/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/css-syntax-patches-for-csstree"
+  },
+  {
+    "path": "node_modules/@csstools/css-tokenizer",
+    "name": "@csstools/css-tokenizer",
+    "version": "4.0.2",
+    "license": "MIT",
+    "integrity": "sha512-OoKoR0f76dCY666JlcbhmVTs2drYj1GUXZTYTcbUgJjh9Nv41aFfZ21bPQTERm5+L5cBDo466NltB2lplS5GBw==",
+    "resolved": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@csstools/css-tokenizer/LICENSE.md",
+        "bytes": 1111,
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "original_notice_path": "notices/node_modules/@csstools/css-tokenizer/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/@csstools/css-tokenizer"
+  },
+  {
+    "path": "node_modules/@dimforge/rapier3d-compat",
+    "name": "@dimforge/rapier3d-compat",
+    "version": "0.12.0",
+    "license": "Apache-2.0",
+    "integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+    "resolved": "https://registry.npmjs.org/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@dimforge/rapier3d-compat/LICENSE",
+        "bytes": 11343,
+        "sha256": "4c05555705e3efde601fb1252ae48f1d63992af8a8fb8947745b7fa834e8f519",
+        "original_notice_path": "notices/node_modules/@dimforge/rapier3d-compat/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@dimforge/rapier3d-compat"
+  },
+  {
+    "path": "node_modules/@exodus/bytes",
+    "name": "@exodus/bytes",
+    "version": "1.16.0",
+    "license": "MIT",
+    "integrity": "sha512-IcpW84uEn3N7ETtNZMlxKhfl6Pec8rUNGOTBtWbK1FKhJxIFAptZyVrvVRVBimAJxJCgc3PxepxkdWWG4DVzfA==",
+    "resolved": "https://registry.npmjs.org/@exodus/bytes/-/bytes-1.16.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@exodus/bytes/LICENSE",
+        "bytes": 1077,
+        "sha256": "dbffd380d59504ba19fcf87ff5a1a33c37edf66d5b09966b0ad5368ab87bc2af",
+        "original_notice_path": "notices/node_modules/@exodus/bytes/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@exodus/bytes"
+  },
+  {
+    "path": "node_modules/@oxc-project/types",
+    "name": "@oxc-project/types",
+    "version": "0.156.0",
+    "license": "MIT",
+    "integrity": "sha512-1Duyg48TdJNdyhEB8Xn1L36bT9Pv6GUtlKjHxOys8xkaF/rQq3XJE+bAurSK/AgIz5mGFsb77cn9Pb20+WCScw==",
+    "resolved": "https://registry.npmjs.org/@oxc-project/types/-/types-0.156.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@oxc-project/types/LICENSE",
+        "bytes": 1119,
+        "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+        "original_notice_path": "notices/node_modules/@oxc-project/types/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@oxc-project/types"
+  },
+  {
+    "path": "node_modules/@react-three/fiber",
+    "name": "@react-three/fiber",
+    "version": "9.8.2",
+    "license": "MIT",
+    "integrity": "sha512-6s0ejw0bT1myQ/aLLugcil8/zBmNnnHw/AISWF1yfDLOxfX3yYaTS+0IkpJITEnm/SSMLtxje6CJDt0i5Wu1Sw==",
+    "resolved": "https://registry.npmjs.org/@react-three/fiber/-/fiber-9.8.2.tgz",
+    "notices": [
+      {
+        "path": "notices/upstream/react-three-fiber-9.8.2-LICENSE",
+        "bytes": 1072,
+        "sha256": "9c35b5de7b7493a707fffe4eb23bd2f7f449153c1911f7c6eefb4e591fd5349a",
+        "source": "prior retained official v9.8.2 license; commit not verified",
+        "original_notice_path": "notices/upstream/react-three-fiber-9.8.2-LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@react-three/fiber"
+  },
+  {
+    "path": "node_modules/@rolldown/binding-linux-x64-gnu",
+    "name": "@rolldown/binding-linux-x64-gnu",
+    "version": "1.2.16",
+    "license": "MIT",
+    "integrity": "sha512-TNKhgE3uJTsTzatUSSYt0Kgo+Oa2uSlSjz4r1aEIea7HX6ULBym4fAlYUhG1i6pjNf2njfCUAfKwr6C3E9Xg1w==",
+    "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.16.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/rolldown/LICENSE",
+        "bytes": 1302,
+        "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+        "source": "matching main rolldown1.2.16 companion upstream terms; native embedded dependency graph not established",
+        "original_notice_path": "notices/node_modules/rolldown/LICENSE"
+      },
+      {
+        "path": "notices/npm-packages/rolldown/THIRD-PARTY-LICENSE",
+        "bytes": 2209,
+        "sha256": "a877291d800ed43692f3f9ae09d8e01cc6f7293ad39d43896059c188ffbb8b7c",
+        "source": "matching main rolldown1.2.16 companion upstream terms; native embedded dependency graph not established",
+        "original_notice_path": "notices/node_modules/rolldown/THIRD-PARTY-LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@rolldown/binding-linux-x64-gnu"
+  },
+  {
+    "path": "node_modules/@rolldown/binding-linux-x64-musl",
+    "name": "@rolldown/binding-linux-x64-musl",
+    "version": "1.2.16",
+    "license": "MIT",
+    "integrity": "sha512-7chXdpjXZ8qG0+mIxECN3cT9kvhZ3/oZhMX6Pp876P7CDrIy8nJswva6Mq357JR7eYXfuskwZxMeV1SzoZdHrA==",
+    "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.16.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/rolldown/LICENSE",
+        "bytes": 1302,
+        "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+        "source": "matching main rolldown1.2.16 companion upstream terms; native embedded dependency graph not established",
+        "original_notice_path": "notices/node_modules/rolldown/LICENSE"
+      },
+      {
+        "path": "notices/npm-packages/rolldown/THIRD-PARTY-LICENSE",
+        "bytes": 2209,
+        "sha256": "a877291d800ed43692f3f9ae09d8e01cc6f7293ad39d43896059c188ffbb8b7c",
+        "source": "matching main rolldown1.2.16 companion upstream terms; native embedded dependency graph not established",
+        "original_notice_path": "notices/node_modules/rolldown/THIRD-PARTY-LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@rolldown/binding-linux-x64-musl"
+  },
+  {
+    "path": "node_modules/@rolldown/pluginutils",
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "license": "MIT",
+    "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+    "resolved": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@rolldown/pluginutils/LICENSE",
+        "bytes": 1106,
+        "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+        "original_notice_path": "notices/node_modules/@rolldown/pluginutils/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@rolldown/pluginutils"
+  },
+  {
+    "path": "node_modules/@tweenjs/tween.js",
+    "name": "@tweenjs/tween.js",
+    "version": "23.1.3",
+    "license": "MIT",
+    "integrity": "sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==",
+    "resolved": "https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-23.1.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@tweenjs/tween.js/LICENSE",
+        "bytes": 1166,
+        "sha256": "c95fecd88f2709bfc34e4d1f1ccc36d17048990e6ba26c283cfecdef0432936b",
+        "original_notice_path": "notices/node_modules/@tweenjs/tween.js/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@tweenjs/tween.js"
+  },
+  {
+    "path": "node_modules/@types/node",
+    "name": "@types/node",
+    "version": "22.20.5",
+    "license": "MIT",
+    "integrity": "sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==",
+    "resolved": "https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/node/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/node/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/node"
+  },
+  {
+    "path": "node_modules/@types/react",
+    "name": "@types/react",
+    "version": "19.3.0",
+    "license": "MIT",
+    "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+    "resolved": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/react/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/react/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/react"
+  },
+  {
+    "path": "node_modules/@types/react-dom",
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "license": "MIT",
+    "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+    "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/react-dom/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/react-dom/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/react-dom"
+  },
+  {
+    "path": "node_modules/@types/react-reconciler",
+    "name": "@types/react-reconciler",
+    "version": "0.28.9",
+    "license": "MIT",
+    "integrity": "sha512-HHM3nxyUZ3zAylX8ZEyrDNd2XZOnQ0D5XfunJF5FLQnZbHHYq4UWvW1QfelQNXv1ICNkwYhfxjwfnqivYB6bFg==",
+    "resolved": "https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.28.9.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/react-reconciler/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/react-reconciler/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/react-reconciler"
+  },
+  {
+    "path": "node_modules/@types/stats.js",
+    "name": "@types/stats.js",
+    "version": "0.17.4",
+    "license": "MIT",
+    "integrity": "sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==",
+    "resolved": "https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/stats.js/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/stats.js/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/stats.js"
+  },
+  {
+    "path": "node_modules/@types/three",
+    "name": "@types/three",
+    "version": "0.184.1",
+    "license": "MIT",
+    "integrity": "sha512-6q4VdiqVsrTRqmk62/BnlcAvIrnDM0zf2ZDVKI5kZiniWrSaOHaQzmbp+BNzoggc/8tgW412pL//wZIxu2PPTA==",
+    "resolved": "https://registry.npmjs.org/@types/three/-/three-0.184.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/three/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/three/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/three"
+  },
+  {
+    "path": "node_modules/@types/webxr",
+    "name": "@types/webxr",
+    "version": "0.5.24",
+    "license": "MIT",
+    "integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+    "resolved": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@types/webxr/LICENSE",
+        "bytes": 1141,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "original_notice_path": "notices/node_modules/@types/webxr/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@types/webxr"
+  },
+  {
+    "path": "node_modules/@typescript/typescript-linux-x64",
+    "name": "@typescript/typescript-linux-x64",
+    "version": "7.0.2",
+    "license": "Apache-2.0",
+    "integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==",
+    "resolved": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@typescript/typescript-linux-x64/LICENSE",
+        "bytes": 9197,
+        "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+        "original_notice_path": "notices/node_modules/@typescript/typescript-linux-x64/LICENSE"
+      },
+      {
+        "path": "notices/npm-packages/@typescript/typescript-linux-x64/NOTICE.txt",
+        "bytes": 48860,
+        "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+        "original_notice_path": "notices/node_modules/@typescript/typescript-linux-x64/NOTICE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/@typescript/typescript-linux-x64"
+  },
+  {
+    "path": "node_modules/@vitejs/plugin-react",
+    "name": "@vitejs/plugin-react",
+    "version": "6.2.1",
+    "license": "MIT",
+    "integrity": "sha512-9KyWCij3r0+qLG3Q62vBmv0VyevmYibAtxaCIVK9o0k6CXgaajZRIe8tpfchQcdZArJ5b/7OrIz4W3b2uxVRDA==",
+    "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.2.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/@vitejs/plugin-react/LICENSE",
+        "bytes": 1103,
+        "sha256": "29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5",
+        "original_notice_path": "notices/node_modules/@vitejs/plugin-react/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/@vitejs/plugin-react"
+  },
+  {
+    "path": "node_modules/base64-js",
+    "name": "base64-js",
+    "version": "1.5.1",
+    "license": "MIT",
+    "integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==",
+    "resolved": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/base64-js/LICENSE",
+        "bytes": 1081,
+        "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1",
+        "original_notice_path": "notices/node_modules/base64-js/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/base64-js"
+  },
+  {
+    "path": "node_modules/bidi-js",
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "license": "MIT",
+    "integrity": "sha512-fX1Onk0tdVPC7obPWB5EbJ1z7NVhLq4m2xZLq2YXBkxzMXIGRpNMU88n0EPgWseKl12J7zXs7qrDxPK4sRs2fg==",
+    "resolved": "https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/bidi-js/LICENSE.txt",
+        "bytes": 1071,
+        "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+        "original_notice_path": "notices/node_modules/bidi-js/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/bidi-js"
+  },
+  {
+    "path": "node_modules/buffer",
+    "name": "buffer",
+    "version": "6.0.3",
+    "license": "MIT",
+    "integrity": "sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==",
+    "resolved": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/buffer/LICENSE",
+        "bytes": 1106,
+        "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+        "original_notice_path": "notices/node_modules/buffer/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/buffer"
+  },
+  {
+    "path": "node_modules/css-tree",
+    "name": "css-tree",
+    "version": "3.2.1",
+    "license": "MIT",
+    "integrity": "sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==",
+    "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/css-tree/LICENSE",
+        "bytes": 1065,
+        "sha256": "719a251ceca49c057ea90a1152af6546b767ec88e6d573bb6324454267b32c22",
+        "original_notice_path": "notices/node_modules/css-tree/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/css-tree"
+  },
+  {
+    "path": "node_modules/csstype",
+    "name": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+    "resolved": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/csstype/LICENSE",
+        "bytes": 1062,
+        "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+        "original_notice_path": "notices/node_modules/csstype/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/csstype"
+  },
+  {
+    "path": "node_modules/data-urls",
+    "name": "data-urls",
+    "version": "8.0.0",
+    "license": "MIT",
+    "integrity": "sha512-JQUCCK+/CAGbGGx618PlFZMXH81Jtj7t73CHv9dd/zVWvxgGT2zLFRjnKb+Ng46GIwcy+f7f88qd4duqllK+WQ==",
+    "resolved": "https://registry.npmjs.org/data-urls/-/data-urls-8.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/data-urls/LICENSE.txt",
+        "bytes": 1069,
+        "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+        "original_notice_path": "notices/node_modules/data-urls/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/data-urls"
+  },
+  {
+    "path": "node_modules/decimal.js",
+    "name": "decimal.js",
+    "version": "10.6.0",
+    "license": "MIT",
+    "integrity": "sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==",
+    "resolved": "https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/decimal.js/LICENCE.md",
+        "bytes": 1104,
+        "sha256": "3108b546bcff5d346923a82f48b2d252ca722f9088076db6d145f6b67757ad6c",
+        "original_notice_path": "notices/node_modules/decimal.js/LICENCE.md"
+      }
+    ],
+    "original_package_path": "node_modules/decimal.js"
+  },
+  {
+    "path": "node_modules/detect-libc",
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "license": "Apache-2.0",
+    "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+    "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/detect-libc/LICENSE",
+        "bytes": 11357,
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+        "original_notice_path": "notices/node_modules/detect-libc/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/detect-libc"
+  },
+  {
+    "path": "node_modules/entities",
+    "name": "entities",
+    "version": "9.0.0",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-oJFNDJg3kTPwAD1cNn2+WmUq4wFoo09npc3Ydf1D7ED4smRiWrsKnaLxykrTWgyGEcusc87P5dxlAleol9kpkg==",
+    "resolved": "https://registry.npmjs.org/entities/-/entities-9.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/entities/LICENSE",
+        "bytes": 1260,
+        "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164",
+        "original_notice_path": "notices/node_modules/entities/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/entities"
+  },
+  {
+    "path": "node_modules/fdir",
+    "name": "fdir",
+    "version": "6.5.0",
+    "license": "MIT",
+    "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/fdir/LICENSE",
+        "bytes": 1053,
+        "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+        "original_notice_path": "notices/node_modules/fdir/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/fdir"
+  },
+  {
+    "path": "node_modules/fflate",
+    "name": "fflate",
+    "version": "0.8.3",
+    "license": "MIT",
+    "integrity": "sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==",
+    "resolved": "https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/fflate/LICENSE",
+        "bytes": 1069,
+        "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551",
+        "original_notice_path": "notices/node_modules/fflate/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/fflate"
+  },
+  {
+    "path": "node_modules/html-encoding-sniffer",
+    "name": "html-encoding-sniffer",
+    "version": "7.0.0",
+    "license": "MIT",
+    "integrity": "sha512-UikN5yr7xsCDAq87Or5or0PAlD3HJJOKVzM05az588WnpDJ4Ux7a2A53Qi6gofGg2/EtvF/H4hCi/TXfCW4Y6w==",
+    "resolved": "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-7.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/html-encoding-sniffer/LICENSE.txt",
+        "bytes": 1069,
+        "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+        "original_notice_path": "notices/node_modules/html-encoding-sniffer/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/html-encoding-sniffer"
+  },
+  {
+    "path": "node_modules/ieee754",
+    "name": "ieee754",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+    "resolved": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/ieee754/LICENSE",
+        "bytes": 1465,
+        "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1",
+        "original_notice_path": "notices/node_modules/ieee754/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/ieee754"
+  },
+  {
+    "path": "node_modules/is-potential-custom-element-name",
+    "name": "is-potential-custom-element-name",
+    "version": "1.0.1",
+    "license": "MIT",
+    "integrity": "sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==",
+    "resolved": "https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/is-potential-custom-element-name/LICENSE-MIT.txt",
+        "bytes": 1077,
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+        "original_notice_path": "notices/node_modules/is-potential-custom-element-name/LICENSE-MIT.txt"
+      }
+    ],
+    "original_package_path": "node_modules/is-potential-custom-element-name"
+  },
+  {
+    "path": "node_modules/its-fine",
+    "name": "its-fine",
+    "version": "2.1.1",
+    "license": "MIT",
+    "integrity": "sha512-C5ZoVkeqSt0Aje0tzESO+iT/EQpNFNL39GkP7mCACtoZUFD6GcyerFCr6kp0ZtiII4W9HoYkY48Soy5xE/uHKw==",
+    "resolved": "https://registry.npmjs.org/its-fine/-/its-fine-2.1.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/its-fine/LICENSE",
+        "bytes": 1072,
+        "sha256": "643123eeb38f154d93cb8323e1289a648d3f343b411a9340453c010e325d0c82",
+        "original_notice_path": "notices/node_modules/its-fine/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/its-fine"
+  },
+  {
+    "path": "node_modules/jsdom",
+    "name": "jsdom",
+    "version": "30.1.3",
+    "license": "MIT",
+    "integrity": "sha512-hQMUPvRgN7KxsfIytDQji7bimuJeRQa6Qo5+iuiZQk5CafeRxLIA10/cG5YCBFNpD9RO3oqIiN4CO1Y44kxqXg==",
+    "resolved": "https://registry.npmjs.org/jsdom/-/jsdom-30.1.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/jsdom/LICENSE.txt",
+        "bytes": 1056,
+        "sha256": "242d37e7cab25cbafc36cc973ee88f9345fddf066afe4f72b7ac3d9ad4e24cce",
+        "original_notice_path": "notices/node_modules/jsdom/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/jsdom"
+  },
+  {
+    "path": "node_modules/lightningcss",
+    "name": "lightningcss",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+    "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/lightningcss/LICENSE",
+        "bytes": 15648,
+        "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+        "original_notice_path": "notices/node_modules/lightningcss/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/lightningcss"
+  },
+  {
+    "path": "node_modules/lightningcss-linux-x64-gnu",
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==",
+    "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/lightningcss-linux-x64-gnu/LICENSE",
+        "bytes": 15648,
+        "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+        "original_notice_path": "notices/node_modules/lightningcss-linux-x64-gnu/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/lightningcss-linux-x64-gnu"
+  },
+  {
+    "path": "node_modules/lightningcss-linux-x64-musl",
+    "name": "lightningcss-linux-x64-musl",
+    "version": "1.33.0",
+    "license": "MPL-2.0",
+    "integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==",
+    "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/lightningcss-linux-x64-musl/LICENSE",
+        "bytes": 15648,
+        "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+        "original_notice_path": "notices/node_modules/lightningcss-linux-x64-musl/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/lightningcss-linux-x64-musl"
+  },
+  {
+    "path": "node_modules/lru-cache",
+    "name": "lru-cache",
+    "version": "11.5.3",
+    "license": "BlueOak-1.0.0",
+    "integrity": "sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==",
+    "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/lru-cache/LICENSE.md",
+        "bytes": 1552,
+        "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+        "original_notice_path": "notices/node_modules/lru-cache/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/lru-cache"
+  },
+  {
+    "path": "node_modules/mdn-data",
+    "name": "mdn-data",
+    "version": "2.27.1",
+    "license": "CC0-1.0",
+    "integrity": "sha512-9Yubnt3e8A0OKwxYSXyhLymGW4sCufcLG6VdiDdUGVkPhpqLxlvP5vl1983gQjJl3tqbrM731mjaZaP68AgosQ==",
+    "resolved": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/mdn-data/LICENSE",
+        "bytes": 6555,
+        "sha256": "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673",
+        "original_notice_path": "notices/node_modules/mdn-data/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/mdn-data"
+  },
+  {
+    "path": "node_modules/meshoptimizer",
+    "name": "meshoptimizer",
+    "version": "1.1.1",
+    "license": "MIT",
+    "integrity": "sha512-oRFNWJRDA/WTrVj7NWvqa5HqE1t9MYDj2VaWirQCzCCrAd2GHrqR/sQezCxiWATPNlKTcRaPRHPJwIRoPBAp5g==",
+    "resolved": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-1.1.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/meshoptimizer/LICENSE.md",
+        "bytes": 1079,
+        "sha256": "f03037ca7bad1e3eb7f4a63fa6084a8baabd5ba30d3c239a9a7f35705d873e26",
+        "original_notice_path": "notices/node_modules/meshoptimizer/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/meshoptimizer"
+  },
+  {
+    "path": "node_modules/nanoid",
+    "name": "nanoid",
+    "version": "3.3.20",
+    "license": "MIT",
+    "integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+    "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/nanoid/LICENSE",
+        "bytes": 1095,
+        "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+        "original_notice_path": "notices/node_modules/nanoid/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/nanoid"
+  },
+  {
+    "path": "node_modules/parse5",
+    "name": "parse5",
+    "version": "8.1.0",
+    "license": "MIT",
+    "integrity": "sha512-sq3qBFpee5jeocbFbO48VHlGr8sT7mbXS0vxlKN6sottBtJzrOG3998sr0llSZcQAGgfpdmEYAIZE0P9z0dE8w==",
+    "resolved": "https://registry.npmjs.org/parse5/-/parse5-8.1.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/parse5/LICENSE",
+        "bytes": 1109,
+        "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d",
+        "original_notice_path": "notices/node_modules/parse5/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/parse5"
+  },
+  {
+    "path": "node_modules/picocolors",
+    "name": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+    "resolved": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/picocolors/LICENSE",
+        "bytes": 787,
+        "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+        "original_notice_path": "notices/node_modules/picocolors/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/picocolors"
+  },
+  {
+    "path": "node_modules/picomatch",
+    "name": "picomatch",
+    "version": "4.0.7",
+    "license": "MIT",
+    "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+    "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/picomatch/LICENSE",
+        "bytes": 1091,
+        "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+        "original_notice_path": "notices/node_modules/picomatch/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/picomatch"
+  },
+  {
+    "path": "node_modules/postcss",
+    "name": "postcss",
+    "version": "8.5.32",
+    "license": "MIT",
+    "integrity": "sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==",
+    "resolved": "https://registry.npmjs.org/postcss/-/postcss-8.5.32.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/postcss/LICENSE",
+        "bytes": 1095,
+        "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+        "original_notice_path": "notices/node_modules/postcss/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/postcss"
+  },
+  {
+    "path": "node_modules/punycode",
+    "name": "punycode",
+    "version": "2.3.1",
+    "license": "MIT",
+    "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+    "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/punycode/LICENSE-MIT.txt",
+        "bytes": 1077,
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+        "original_notice_path": "notices/node_modules/punycode/LICENSE-MIT.txt"
+      }
+    ],
+    "original_package_path": "node_modules/punycode"
+  },
+  {
+    "path": "node_modules/react",
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+    "resolved": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/react/LICENSE",
+        "bytes": 1088,
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+        "original_notice_path": "notices/node_modules/react/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/react"
+  },
+  {
+    "path": "node_modules/react-dom",
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+    "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/react-dom/LICENSE",
+        "bytes": 1088,
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+        "original_notice_path": "notices/node_modules/react-dom/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/react-dom"
+  },
+  {
+    "path": "node_modules/react-use-measure",
+    "name": "react-use-measure",
+    "version": "2.1.7",
+    "license": "MIT",
+    "integrity": "sha512-KrvcAo13I/60HpwGO5jpW7E9DfusKyLPLvuHlUyP5zqnmAPhNc6qTRjUQrdTADl0lpPpDVU2/Gg51UlOGHXbdg==",
+    "resolved": "https://registry.npmjs.org/react-use-measure/-/react-use-measure-2.1.7.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/react-use-measure/LICENSE",
+        "bytes": 1093,
+        "sha256": "1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a",
+        "original_notice_path": "notices/node_modules/react-use-measure/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/react-use-measure"
+  },
+  {
+    "path": "node_modules/require-from-string",
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "license": "MIT",
+    "integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",
+    "resolved": "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/require-from-string/license",
+        "bytes": 1128,
+        "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f",
+        "original_notice_path": "notices/node_modules/require-from-string/license"
+      }
+    ],
+    "original_package_path": "node_modules/require-from-string"
+  },
+  {
+    "path": "node_modules/rolldown",
+    "name": "rolldown",
+    "version": "1.2.16",
+    "license": "MIT",
+    "integrity": "sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==",
+    "resolved": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.16.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/rolldown/LICENSE",
+        "bytes": 1302,
+        "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+        "original_notice_path": "notices/node_modules/rolldown/LICENSE"
+      },
+      {
+        "path": "notices/npm-packages/rolldown/THIRD-PARTY-LICENSE",
+        "bytes": 2209,
+        "sha256": "a877291d800ed43692f3f9ae09d8e01cc6f7293ad39d43896059c188ffbb8b7c",
+        "original_notice_path": "notices/node_modules/rolldown/THIRD-PARTY-LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/rolldown"
+  },
+  {
+    "path": "node_modules/saxes",
+    "name": "saxes",
+    "version": "6.0.0",
+    "license": "ISC",
+    "integrity": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+    "resolved": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/upstream/saxes-6.0.0-LICENSE",
+        "bytes": 3011,
+        "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+        "source": "exact registry gitHead211fa0ebec9b628affc09219199639887174bfc3 LICENSE",
+        "original_notice_path": "notices/upstream/saxes-6.0.0-LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/saxes"
+  },
+  {
+    "path": "node_modules/scheduler",
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+    "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/scheduler/LICENSE",
+        "bytes": 1088,
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+        "original_notice_path": "notices/node_modules/scheduler/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/scheduler"
+  },
+  {
+    "path": "node_modules/source-map-js",
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "license": "BSD-3-Clause",
+    "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+    "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/source-map-js/LICENSE",
+        "bytes": 1526,
+        "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+        "original_notice_path": "notices/node_modules/source-map-js/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/source-map-js"
+  },
+  {
+    "path": "node_modules/suspend-react",
+    "name": "suspend-react",
+    "version": "0.1.3",
+    "license": "MIT",
+    "integrity": "sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==",
+    "resolved": "https://registry.npmjs.org/suspend-react/-/suspend-react-0.1.3.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/suspend-react/LICENSE",
+        "bytes": 1070,
+        "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+        "original_notice_path": "notices/node_modules/suspend-react/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/suspend-react"
+  },
+  {
+    "path": "node_modules/three",
+    "name": "three",
+    "version": "0.184.0",
+    "license": "MIT",
+    "integrity": "sha512-wtTRjG92pM5eUg/KuUnHsqSAlPM296brTOcLgMRqEeylYTh/CdtvKUvCyyCQTzFuStieWxvZb8mVTMvdPyUpxg==",
+    "resolved": "https://registry.npmjs.org/three/-/three-0.184.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/three/LICENSE",
+        "bytes": 1081,
+        "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+        "original_notice_path": "notices/node_modules/three/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/three"
+  },
+  {
+    "path": "node_modules/tinyglobby",
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "license": "MIT",
+    "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+    "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/tinyglobby/LICENSE",
+        "bytes": 1076,
+        "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+        "original_notice_path": "notices/node_modules/tinyglobby/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/tinyglobby"
+  },
+  {
+    "path": "node_modules/tldts",
+    "name": "tldts",
+    "version": "7.4.19",
+    "license": "MIT",
+    "integrity": "sha512-48dH6aSpQnpbzDUc4vIQZ1VjB8tkK+e8c1yx05/SZK+rkssgjEOlxDd/yU8/a4vGYQ9vRgJr9dwMq9TJ0b3X2Q==",
+    "resolved": "https://registry.npmjs.org/tldts/-/tldts-7.4.19.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/tldts/LICENSE",
+        "bytes": 1078,
+        "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+        "original_notice_path": "notices/node_modules/tldts/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/tldts"
+  },
+  {
+    "path": "node_modules/tldts-core",
+    "name": "tldts-core",
+    "version": "7.4.20",
+    "license": "MIT",
+    "integrity": "sha512-C630TWXZCZmLq0F2bW4QqwnaaxCQ/svpAqvJwnC4JvgEM5ohhBnGsEzTLSOXcN+xjz+kEaHS5uoWIw2klnqd0A==",
+    "resolved": "https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.20.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/tldts-core/LICENSE",
+        "bytes": 1078,
+        "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+        "original_notice_path": "notices/node_modules/tldts-core/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/tldts-core"
+  },
+  {
+    "path": "node_modules/tough-cookie",
+    "name": "tough-cookie",
+    "version": "6.0.2",
+    "license": "BSD-3-Clause",
+    "integrity": "sha512-exgYmnmL/sJpR3upZfXG5PoatXQii55xAiXGXzY+sROLZ/Y+SLcp9PgJNI9Vz37HpQ74WvDcLT8eqm+kV3FzrA==",
+    "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/tough-cookie/LICENSE",
+        "bytes": 1485,
+        "sha256": "22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d",
+        "original_notice_path": "notices/node_modules/tough-cookie/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/tough-cookie"
+  },
+  {
+    "path": "node_modules/tr46",
+    "name": "tr46",
+    "version": "7.0.0",
+    "license": "MIT",
+    "integrity": "sha512-BcDSDW+SIGWVOns1Zm6Yg91q9AEj7eaID0QDY9oIqJD1A8dscNwMcl9Sms2DeuWCNov1X0/oXanHGYQBSLwZsg==",
+    "resolved": "https://registry.npmjs.org/tr46/-/tr46-7.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/tr46/LICENSE.md",
+        "bytes": 1076,
+        "sha256": "499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67",
+        "original_notice_path": "notices/node_modules/tr46/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/tr46"
+  },
+  {
+    "path": "node_modules/typescript",
+    "name": "typescript",
+    "version": "7.0.2",
+    "license": "Apache-2.0",
+    "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+    "resolved": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/typescript/LICENSE",
+        "bytes": 9197,
+        "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+        "original_notice_path": "notices/node_modules/typescript/LICENSE"
+      },
+      {
+        "path": "notices/npm-packages/typescript/NOTICE.txt",
+        "bytes": 48860,
+        "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+        "original_notice_path": "notices/node_modules/typescript/NOTICE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/typescript"
+  },
+  {
+    "path": "node_modules/undici",
+    "name": "undici",
+    "version": "8.12.4",
+    "license": "MIT",
+    "integrity": "sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==",
+    "resolved": "https://registry.npmjs.org/undici/-/undici-8.12.4.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/undici/LICENSE",
+        "bytes": 1090,
+        "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+        "original_notice_path": "notices/node_modules/undici/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/undici"
+  },
+  {
+    "path": "node_modules/undici-types",
+    "name": "undici-types",
+    "version": "6.21.0",
+    "license": "MIT",
+    "integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
+    "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/undici-types/LICENSE",
+        "bytes": 1090,
+        "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+        "original_notice_path": "notices/node_modules/undici-types/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/undici-types"
+  },
+  {
+    "path": "node_modules/use-sync-external-store",
+    "name": "use-sync-external-store",
+    "version": "1.7.0",
+    "license": "MIT",
+    "integrity": "sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==",
+    "resolved": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/use-sync-external-store/LICENSE",
+        "bytes": 1088,
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+        "original_notice_path": "notices/node_modules/use-sync-external-store/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/use-sync-external-store"
+  },
+  {
+    "path": "node_modules/vite",
+    "name": "vite",
+    "version": "8.3.6",
+    "license": "MIT",
+    "integrity": "sha512-UI7dK29NnS54Fk+mmo7o+jI6U8Fp7hDl+X5Q1k45WH+d4dSlbLVUETGQ+hfkNgvLQGyoElPj837nZyv4MBc0VA==",
+    "resolved": "https://registry.npmjs.org/vite/-/vite-8.3.6.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/vite/LICENSE.md",
+        "bytes": 98196,
+        "sha256": "a22152baa1aef74402443008e767e7c689a524c0909d19b0431d97f5ab066a13",
+        "original_notice_path": "notices/node_modules/vite/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/vite"
+  },
+  {
+    "path": "node_modules/w3c-xmlserializer",
+    "name": "w3c-xmlserializer",
+    "version": "6.0.0",
+    "license": "MIT",
+    "integrity": "sha512-4Nsy8K5Tr6SPDH9jhKJOHf7ChDrc1zufZTVSF7x72hwuEXBqxqk9G6cK+K2NRUtB3iELRJqjXb4JPDMBjMTl2Q==",
+    "resolved": "https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-6.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/w3c-xmlserializer/LICENSE.md",
+        "bytes": 1105,
+        "sha256": "ab654de803cdaa9e2819ab2e934bdf7f757e308649ec231d78e80e92425cdc34",
+        "original_notice_path": "notices/node_modules/w3c-xmlserializer/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/w3c-xmlserializer"
+  },
+  {
+    "path": "node_modules/webidl-conversions",
+    "name": "webidl-conversions",
+    "version": "8.0.1",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-BMhLD/Sw+GbJC21C/UgyaZX41nPt8bUTg+jWyDeg7e7YN4xOM05YPSIXceACnXVtqyEw/LMClUQMtMZ+PGGpqQ==",
+    "resolved": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/webidl-conversions/LICENSE.md",
+        "bytes": 1323,
+        "sha256": "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c",
+        "original_notice_path": "notices/node_modules/webidl-conversions/LICENSE.md"
+      }
+    ],
+    "original_package_path": "node_modules/webidl-conversions"
+  },
+  {
+    "path": "node_modules/whatwg-mimetype",
+    "name": "whatwg-mimetype",
+    "version": "5.0.0",
+    "license": "MIT",
+    "integrity": "sha512-sXcNcHOC51uPGF0P/D4NVtrkjSU2fNsm9iog4ZvZJsL3rjoDAzXZhkm2MWt1y+PUdggKAYVoMAIYcs78wJ51Cw==",
+    "resolved": "https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/whatwg-mimetype/LICENSE.txt",
+        "bytes": 1069,
+        "sha256": "528eec83cb836a0adda9f8fc3d6a2a70a710d6cc0be9a155f92212c8df28acfa",
+        "original_notice_path": "notices/node_modules/whatwg-mimetype/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/whatwg-mimetype"
+  },
+  {
+    "path": "node_modules/whatwg-url",
+    "name": "whatwg-url",
+    "version": "17.3.0",
+    "license": "MIT",
+    "integrity": "sha512-KwOAJrpf+GTgBvcBQJcP38sMF0DsQKdwtG+TxM2pW44P6E5k0hDbWrDmyuJDIF0Uef0aQq0ZoJs+5oI+k8ddhg==",
+    "resolved": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.3.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/whatwg-url/LICENSE.txt",
+        "bytes": 1076,
+        "sha256": "db480f236292a093e77a83c35431a8496624e1e664a3547768a9ce2bdde39877",
+        "original_notice_path": "notices/node_modules/whatwg-url/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/whatwg-url"
+  },
+  {
+    "path": "node_modules/xml-name-validator",
+    "name": "xml-name-validator",
+    "version": "5.0.0",
+    "license": "Apache-2.0",
+    "integrity": "sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==",
+    "resolved": "https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/xml-name-validator/LICENSE.txt",
+        "bytes": 10173,
+        "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+        "original_notice_path": "notices/node_modules/xml-name-validator/LICENSE.txt"
+      }
+    ],
+    "original_package_path": "node_modules/xml-name-validator"
+  },
+  {
+    "path": "node_modules/xmlchars",
+    "name": "xmlchars",
+    "version": "2.2.0",
+    "license": "MIT",
+    "integrity": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==",
+    "resolved": "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/xmlchars/LICENSE",
+        "bytes": 1086,
+        "sha256": "45d196313c2647d313cc65ca9b093d2d6974b64d35ee7346f2c60c9d518dff2c",
+        "original_notice_path": "notices/node_modules/xmlchars/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/xmlchars"
+  },
+  {
+    "path": "node_modules/zustand",
+    "name": "zustand",
+    "version": "5.0.16",
+    "license": "MIT",
+    "integrity": "sha512-Uv7e327ihlCfayfja3hDc0M64Upev1LWBKpRobdK4NyovDDPeeX4imWXc/wzC1yc6fkYPoAY/ncKVPAs2jrtQw==",
+    "resolved": "https://registry.npmjs.org/zustand/-/zustand-5.0.16.tgz",
+    "notices": [
+      {
+        "path": "notices/npm-packages/zustand/LICENSE",
+        "bytes": 1070,
+        "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417",
+        "original_notice_path": "notices/node_modules/zustand/LICENSE"
+      }
+    ],
+    "original_package_path": "node_modules/zustand"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "rolldown",
+      "version": "1.2.16",
+      "url": "https://registry.npmjs.org/rolldown/1.2.16",
+      "registry_metadata_sha256": "9ff91a14b504f20a42ea0d76eed5a491a719dbf44017c698d8e2f11af3c5bb4c",
+      "integrity": "sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==",
+      "license": "MIT",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.16",
+      "url": "https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-gnu/1.2.16",
+      "registry_metadata_sha256": "90e0d37f9d51af35fcd2eeedfaf1e666c9786ef0bfc6968fa31117fc796da38e",
+      "integrity": "sha512-TNKhgE3uJTsTzatUSSYt0Kgo+Oa2uSlSjz4r1aEIea7HX6ULBym4fAlYUhG1i6pjNf2njfCUAfKwr6C3E9Xg1w==",
+      "license": "MIT",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    },
+    {
+      "name": "@rolldown/binding-linux-x64-musl",
+      "version": "1.2.16",
+      "url": "https://registry.npmjs.org/@rolldown%2fbinding-linux-x64-musl/1.2.16",
+      "registry_metadata_sha256": "13d3d637d911002a66cc8834af7149bd7f1bf635e48283a548456f3dae4febc4",
+      "integrity": "sha512-7chXdpjXZ8qG0+mIxECN3cT9kvhZ3/oZhMX6Pp876P7CDrIy8nJswva6Mq357JR7eYXfuskwZxMeV1SzoZdHrA==",
+      "license": "MIT",
+      "gitHead": null,
+      "repository": {
+        "url": "git+https://github.com/rolldown/rolldown.git",
+        "type": "git",
+        "directory": "packages/rolldown"
+      }
+    }
+  ],
+  "scope": "Exact version/integrity/repository provenance only; full LICENSE and THIRD-PARTY-LICENSE come from actual matching rolldown1.2.16 package. Not a source-to-native or retained-code graph."
+}

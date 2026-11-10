@@ -1,0 +1,740 @@
+[
+  {
+    "name": "@asamuzakjp/css-color",
+    "version": "7.1.9",
+    "url": "https://registry.npmjs.org/@asamuzakjp/css-color/-/css-color-7.1.9.tgz",
+    "npm_integrity": "sha512-vZ6JQVq8Ivgz6b/IBlAf90wZviXdluY13cQOPO+nJHbmXwGrPl2GcpqUY7a55/8ZVdfONXpCFMpRijOBCHNlcQ==",
+    "bytes": 84767,
+    "sha256": "a099dc43ef69c335fda8cdaca7ace8a08bdd8ed064558b5f72bb7fab7aeb36a0",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@asamuzakjp/dom-selector",
+    "version": "10.0.5",
+    "url": "https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-10.0.5.tgz",
+    "npm_integrity": "sha512-EgmJ7oEaGQECTn3H3wmnQpEy4hKY66VvM7VQndwPIQob3p877BgbyOUE3EX0LgXQCciF2H8KMdR+RznqjMNOLw==",
+    "bytes": 65511,
+    "sha256": "d62c1e5c66034adde83ed83d8bade9b3009d32b06448dc0222e725dd0e4a4e46",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.13",
+    "url": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.13.tgz",
+    "npm_integrity": "sha512-v+oN26xP4YIlQsbQ/CbTH1WG5m/l/DjKKZNy/Kp3f/AFvbgt7Em/D0FeMM3O2hX0YzeN2M16W8lOpyhIkfCBcQ==",
+    "bytes": 55277,
+    "sha256": "6ef9ac7006a2ce2bfb790145763c789e2c850465b75918c9bf92a7c5ff4bdf7e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@bramus/specificity",
+    "version": "2.4.3",
+    "url": "https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.3.tgz",
+    "npm_integrity": "sha512-0GEz8qJWokkUVYQYRukmkSHIFNoBH8QTreeHrAFbvz1XFYc3Y+puhMs8PQ5x8GNugiC2l5jvDBXKLbBIByeSBw==",
+    "bytes": 184262,
+    "sha256": "8a88d23cacb60ccf5a3cad7a76558ce6c825b70a5751500fa825c68d7c79fb7d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/color-helpers",
+    "version": "6.1.2",
+    "url": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz",
+    "npm_integrity": "sha512-grhRy3OKmniaAEKXMjua5z/EODX0MSqBGjunw8+j/3HQjOnahs2AGhvEOIYVUWcU6ScApbhLhVrQTX8XqrMrow==",
+    "bytes": 10722,
+    "sha256": "23fbce9d140e7611c37d3e92e862d2ed871731aa56ceba37c9e008588d5bf7b2",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/css-calc",
+    "version": "3.4.3",
+    "url": "https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.3.tgz",
+    "npm_integrity": "sha512-iex20d8CHVkyvg6B7UKV7uHnI2Bqo9g+EFfT9E0y+GvTvhZ/DwONJ+9aKb1dlqm0ZiGsL5RXjp0fCoJYnkeDjA==",
+    "bytes": 14353,
+    "sha256": "6de4a93bc8b000a510d4dc77acb85953dbf50a21fc46f5ab68e09a5d2206805f",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/css-color-parser",
+    "version": "4.2.7",
+    "url": "https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.7.tgz",
+    "npm_integrity": "sha512-zgm9yjQz5iJB4VL8RyVwd71TWB8Q89FSxt/NzXoWqPSkEBOVtn9L6vAPtSc9hpKfB0Awo/AL2VKFHjYetBLFHQ==",
+    "bytes": 13689,
+    "sha256": "da197bde9d1885d93a967837ca24f23b60d63ec3029a5995b04e15c71e46615d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/css-parser-algorithms",
+    "version": "4.0.2",
+    "url": "https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.2.tgz",
+    "npm_integrity": "sha512-40cSKyMvK+tq4qz6Awrlye2WGuOKt3FwPgtGg6KTfbHOWNw+Rk1rzbAtZnZ6IBhsY491HLRnDXwoyBAijmmILA==",
+    "bytes": 9153,
+    "sha256": "18f8eaea8d271e281bdd93a3a0b3b1a313879f37147ae3170da3b5ef12a85eb6",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/css-syntax-patches-for-csstree",
+    "version": "1.1.16",
+    "url": "https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.16.tgz",
+    "npm_integrity": "sha512-LsDbJPP/B8cPasUJyTA5S99F7C4G93ngW8hUluXz8CFeOaaRnBPtBiIlvgcPYU0HmHNz8CXg+1vwFrIB4F6Dgw==",
+    "bytes": 20215,
+    "sha256": "97bd9f68c7804f52dae45cc25f50f2165838fd1104d53e43c5eb45d1720fdc77",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@csstools/css-tokenizer",
+    "version": "4.0.2",
+    "url": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz",
+    "npm_integrity": "sha512-OoKoR0f76dCY666JlcbhmVTs2drYj1GUXZTYTcbUgJjh9Nv41aFfZ21bPQTERm5+L5cBDo466NltB2lplS5GBw==",
+    "bytes": 10505,
+    "sha256": "1af7c4bfb45888f31f014c606b858a75ca8f3b98c61859e27ca26d94dfc6a36f",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@dimforge/rapier3d-compat",
+    "version": "0.12.0",
+    "url": "https://registry.npmjs.org/@dimforge/rapier3d-compat/-/rapier3d-compat-0.12.0.tgz",
+    "npm_integrity": "sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==",
+    "bytes": 2348060,
+    "sha256": "8559163a335c12388b02e61a25d588ff5b98da45f9336c59664dc919af086b26",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@exodus/bytes",
+    "version": "1.16.0",
+    "url": "https://registry.npmjs.org/@exodus/bytes/-/bytes-1.16.0.tgz",
+    "npm_integrity": "sha512-IcpW84uEn3N7ETtNZMlxKhfl6Pec8rUNGOTBtWbK1FKhJxIFAptZyVrvVRVBimAJxJCgc3PxepxkdWWG4DVzfA==",
+    "bytes": 145999,
+    "sha256": "bc5282c79f68d01e1516385aee4ffbe6ba955f023e685f3cf2fd3ffcb00c8841",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.156.0",
+    "url": "https://registry.npmjs.org/@oxc-project/types/-/types-0.156.0.tgz",
+    "npm_integrity": "sha512-1Duyg48TdJNdyhEB8Xn1L36bT9Pv6GUtlKjHxOys8xkaF/rQq3XJE+bAurSK/AgIz5mGFsb77cn9Pb20+WCScw==",
+    "bytes": 7629,
+    "sha256": "9ea3e4ff27f4c9c7bc9b5a8feb7b7d4f2181dd2b1d90067d52f267b6c5897dbc",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@react-three/fiber",
+    "version": "9.8.2",
+    "url": "https://registry.npmjs.org/@react-three/fiber/-/fiber-9.8.2.tgz",
+    "npm_integrity": "sha512-6s0ejw0bT1myQ/aLLugcil8/zBmNnnHw/AISWF1yfDLOxfX3yYaTS+0IkpJITEnm/SSMLtxje6CJDt0i5Wu1Sw==",
+    "bytes": 561970,
+    "sha256": "db98d14ff474684e018c6103437b85ba919b83b24c5a1fbf1f0deb58dd96d465",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@rolldown/binding-linux-x64-gnu",
+    "version": "1.2.16",
+    "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.16.tgz",
+    "npm_integrity": "sha512-TNKhgE3uJTsTzatUSSYt0Kgo+Oa2uSlSjz4r1aEIea7HX6ULBym4fAlYUhG1i6pjNf2njfCUAfKwr6C3E9Xg1w==",
+    "bytes": 8821456,
+    "sha256": "8bcdc0b4e718ad1febfc845775dbd1c2217e875fbcd632eb1b7ea658bf303e7c",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@rolldown/binding-linux-x64-musl",
+    "version": "1.2.16",
+    "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.16.tgz",
+    "npm_integrity": "sha512-7chXdpjXZ8qG0+mIxECN3cT9kvhZ3/oZhMX6Pp876P7CDrIy8nJswva6Mq357JR7eYXfuskwZxMeV1SzoZdHrA==",
+    "bytes": 8805618,
+    "sha256": "d4009fa68a9f106f9a4d9bcfe3d948e5b7096fb81a8aac870939d91247c38b45",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "url": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+    "npm_integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+    "bytes": 6681,
+    "sha256": "13fcb3423d37f95a8e861c172e4b62fd24f22412be4e942087367242476e3400",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@tweenjs/tween.js",
+    "version": "23.1.3",
+    "url": "https://registry.npmjs.org/@tweenjs/tween.js/-/tween.js-23.1.3.tgz",
+    "npm_integrity": "sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==",
+    "bytes": 29052,
+    "sha256": "e92ea848c92bd29239efd2689a018c0ef531391ce0041a1787a964314fd4eb8a",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/node",
+    "version": "22.20.5",
+    "url": "https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz",
+    "npm_integrity": "sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==",
+    "bytes": 447028,
+    "sha256": "1d382e6ea27221dcf02fc1cada5c5d396c4ca499552201323ca43713baa60012",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/react",
+    "version": "19.3.0",
+    "url": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+    "npm_integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+    "bytes": 77822,
+    "sha256": "ffa77ffdbdc82e5f67a0fd74d750990375a7dfd8685ec7f10a27c0db128f7766",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/react-dom",
+    "version": "19.3.0",
+    "url": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+    "npm_integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+    "bytes": 8185,
+    "sha256": "0782e1cd4af4a6a030843235a48e55dc690c36f9428b0b672dc53350806dcf21",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/react-reconciler",
+    "version": "0.28.9",
+    "url": "https://registry.npmjs.org/@types/react-reconciler/-/react-reconciler-0.28.9.tgz",
+    "npm_integrity": "sha512-HHM3nxyUZ3zAylX8ZEyrDNd2XZOnQ0D5XfunJF5FLQnZbHHYq4UWvW1QfelQNXv1ICNkwYhfxjwfnqivYB6bFg==",
+    "bytes": 12344,
+    "sha256": "032acc1deb78689706448688863c34920c06d9b954e1d5683017aab1da5a984d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/stats.js",
+    "version": "0.17.4",
+    "url": "https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz",
+    "npm_integrity": "sha512-jIBvWWShCvlBqBNIZt0KAshWpvSjhkwkEu4ZUcASoAvhmrgAUI2t1dXrjSL4xXVLB4FznPrIsX3nKXFl/Dt4vA==",
+    "bytes": 1913,
+    "sha256": "34719404e92bb0efd1f021ab175feaca2bba41ba5b3d4eefca7fa76351f46ec8",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/three",
+    "version": "0.184.1",
+    "url": "https://registry.npmjs.org/@types/three/-/three-0.184.1.tgz",
+    "npm_integrity": "sha512-6q4VdiqVsrTRqmk62/BnlcAvIrnDM0zf2ZDVKI5kZiniWrSaOHaQzmbp+BNzoggc/8tgW412pL//wZIxu2PPTA==",
+    "bytes": 345045,
+    "sha256": "2aba5ae29fa2760753781d3b030fcb1332a5ef666d3594ae16d4b88092016d37",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@types/webxr",
+    "version": "0.5.24",
+    "url": "https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz",
+    "npm_integrity": "sha512-h8fgEd/DpoS9CBrjEQXR+dIDraopAEfu4wYVNY2tEPwk60stPWhvZMf4Foo5FakuQ7HFZoa8WceaWFervK2Ovg==",
+    "bytes": 11239,
+    "sha256": "3c846cf2797369ab971b6c89c9eb3089efb967261536c0f9bf31d6c250c9487a",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@typescript/typescript-linux-x64",
+    "version": "7.0.2",
+    "url": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+    "npm_integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==",
+    "bytes": 9669334,
+    "sha256": "7ecad6f67377e831856367ab062ef394f21506a611405bf8ac0ff039348637d3",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "@vitejs/plugin-react",
+    "version": "6.2.1",
+    "url": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.2.1.tgz",
+    "npm_integrity": "sha512-9KyWCij3r0+qLG3Q62vBmv0VyevmYibAtxaCIVK9o0k6CXgaajZRIe8tpfchQcdZArJ5b/7OrIz4W3b2uxVRDA==",
+    "bytes": 14751,
+    "sha256": "47f6d5f4b761d19a0717f68913d0db504df4ba2da699d72ec3f6ae7f21b2d35d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "base64-js",
+    "version": "1.5.1",
+    "url": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+    "npm_integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==",
+    "bytes": 4109,
+    "sha256": "b1b7a945b52685269083425216d6597e33d97bf21699d656e92fdb3eb5210a85",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "url": "https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz",
+    "npm_integrity": "sha512-fX1Onk0tdVPC7obPWB5EbJ1z7NVhLq4m2xZLq2YXBkxzMXIGRpNMU88n0EPgWseKl12J7zXs7qrDxPK4sRs2fg==",
+    "bytes": 47353,
+    "sha256": "8a89fce4e2b00c5141929ecde8336e955901e8fa2c7f01c6b5c9732639dd4175",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "buffer",
+    "version": "6.0.3",
+    "url": "https://registry.npmjs.org/buffer/-/buffer-6.0.3.tgz",
+    "npm_integrity": "sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==",
+    "bytes": 23108,
+    "sha256": "555b6f49224afcf6b2c5a9aea7cd34a7f443f395b10532bc5580022d57aa51f5",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "css-tree",
+    "version": "3.2.1",
+    "url": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz",
+    "npm_integrity": "sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==",
+    "bytes": 316943,
+    "sha256": "4c06bfe733d006103a4c070dcf8e0a3b2eb6b6a83e20e21c32d2d3b9c3ffae0a",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "url": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+    "npm_integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+    "bytes": 138324,
+    "sha256": "f3501f8ee1c73f7568fecb22c11231162c0467e59262461da5579519307427a3",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "data-urls",
+    "version": "8.0.0",
+    "url": "https://registry.npmjs.org/data-urls/-/data-urls-8.0.0.tgz",
+    "npm_integrity": "sha512-JQUCCK+/CAGbGGx618PlFZMXH81Jtj7t73CHv9dd/zVWvxgGT2zLFRjnKb+Ng46GIwcy+f7f88qd4duqllK+WQ==",
+    "bytes": 3732,
+    "sha256": "8a63ac9cde6d1c8e207769473c4cc5d19d5623f320431864a683bd368652da20",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "decimal.js",
+    "version": "10.6.0",
+    "url": "https://registry.npmjs.org/decimal.js/-/decimal.js-10.6.0.tgz",
+    "npm_integrity": "sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==",
+    "bytes": 69924,
+    "sha256": "433210122e8149972f64054c54b0ce0872e5f15a3c5835aab57ff1a8e6d071b1",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "url": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+    "npm_integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+    "bytes": 7776,
+    "sha256": "270dec0fc06cff86481da8af2dd8f18dee6b602790b14ef0e1c2c18d7da39427",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "entities",
+    "version": "9.0.0",
+    "url": "https://registry.npmjs.org/entities/-/entities-9.0.0.tgz",
+    "npm_integrity": "sha512-oJFNDJg3kTPwAD1cNn2+WmUq4wFoo09npc3Ydf1D7ED4smRiWrsKnaLxykrTWgyGEcusc87P5dxlAleol9kpkg==",
+    "bytes": 92324,
+    "sha256": "f93f36ae30dbc07243b5ca8e060dee3713fc60968a9475715606c54fa48b48d9",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "url": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "npm_integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "bytes": 9742,
+    "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "fflate",
+    "version": "0.8.3",
+    "url": "https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz",
+    "npm_integrity": "sha512-tbZNuJrLwGUp3zshBtdy4W+ORxZuIh8a5ilyIEQDC5rY1f3U20JMry0Ll3WBzU58EZKsEuJFXhb5gwv8CsPvgA==",
+    "bytes": 173034,
+    "sha256": "38c2cd824402407b43153c782274aec2ea83ea688e4aa0b743c5f2c305857d92",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "html-encoding-sniffer",
+    "version": "7.0.0",
+    "url": "https://registry.npmjs.org/html-encoding-sniffer/-/html-encoding-sniffer-7.0.0.tgz",
+    "npm_integrity": "sha512-UikN5yr7xsCDAq87Or5or0PAlD3HJJOKVzM05az588WnpDJ4Ux7a2A53Qi6gofGg2/EtvF/H4hCi/TXfCW4Y6w==",
+    "bytes": 5202,
+    "sha256": "eb8d28f85e3fff74434b29557c4fc66b6039f8f92d3e812492426a54c8368a7a",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "ieee754",
+    "version": "1.2.1",
+    "url": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+    "npm_integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+    "bytes": 2886,
+    "sha256": "8ef14b9b397e339db89db97881fb714f49319d8f0eb1275901f45567b28f9dac",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "is-potential-custom-element-name",
+    "version": "1.0.1",
+    "url": "https://registry.npmjs.org/is-potential-custom-element-name/-/is-potential-custom-element-name-1.0.1.tgz",
+    "npm_integrity": "sha512-bCYeRA2rVibKZd+s2625gGnGF/t7DSqDs4dP7CrLA1m7jKWz6pps0LpYLJN8Q64HtmPKJ1hrN3nzPNKFEKOUiQ==",
+    "bytes": 1905,
+    "sha256": "b6e425bb136422af133754814046a640c1573349755c63130c424abcee398621",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "its-fine",
+    "version": "2.1.1",
+    "url": "https://registry.npmjs.org/its-fine/-/its-fine-2.1.1.tgz",
+    "npm_integrity": "sha512-C5ZoVkeqSt0Aje0tzESO+iT/EQpNFNL39GkP7mCACtoZUFD6GcyerFCr6kp0ZtiII4W9HoYkY48Soy5xE/uHKw==",
+    "bytes": 14357,
+    "sha256": "c178dee7b09aad3b44cd5ebd97a9c1afe03be8379862f70c83b90b4de2f9e885",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "jsdom",
+    "version": "30.1.3",
+    "url": "https://registry.npmjs.org/jsdom/-/jsdom-30.1.3.tgz",
+    "npm_integrity": "sha512-hQMUPvRgN7KxsfIytDQji7bimuJeRQa6Qo5+iuiZQk5CafeRxLIA10/cG5YCBFNpD9RO3oqIiN4CO1Y44kxqXg==",
+    "bytes": 555464,
+    "sha256": "48dc5a26cec36bbc2fecf88aa95583af6e9e566a67006077a97b71f5b3a8dec1",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.33.0",
+    "url": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.33.0.tgz",
+    "npm_integrity": "sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==",
+    "bytes": 87655,
+    "sha256": "d492f4278bb7234ceaa3c2638ef944e108ea17a23db7c6a2367c14fa725598cf",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "1.33.0",
+    "url": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.33.0.tgz",
+    "npm_integrity": "sha512-ar+Ju7LmcN0Jo4FpL4hpFybwNG9/3A/Br5KW2n2jyODg3MEZXaDYADdemoNS+BDNfMgKvylJLj4S5tyRActuAg==",
+    "bytes": 3855795,
+    "sha256": "fd485dfd57082c4ef864dd867fa87fd8e1a9b5d58ee85c2b76e28e42c8f3e1d3",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "lightningcss-linux-x64-musl",
+    "version": "1.33.0",
+    "url": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.33.0.tgz",
+    "npm_integrity": "sha512-RYiYbkokw0trfKqqzfF55lginwEPrD3OJDfTuJzFs1MK6iFnDenaz1fqLLtX4ITG3OktJQXOeTaw1awrBAlZPw==",
+    "bytes": 3853971,
+    "sha256": "f3a1a10f3c393db5ce03438035b94fcd48bc7b7b52bb97f76a3ed52784624441",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "lru-cache",
+    "version": "11.5.3",
+    "url": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz",
+    "npm_integrity": "sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==",
+    "bytes": 697866,
+    "sha256": "d18739bbd7d0091d30d2cca58e120c8b70ac09a5a21aa4b2b3e9afb2dc4084d8",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "mdn-data",
+    "version": "2.27.1",
+    "url": "https://registry.npmjs.org/mdn-data/-/mdn-data-2.27.1.tgz",
+    "npm_integrity": "sha512-9Yubnt3e8A0OKwxYSXyhLymGW4sCufcLG6VdiDdUGVkPhpqLxlvP5vl1983gQjJl3tqbrM731mjaZaP68AgosQ==",
+    "bytes": 102934,
+    "sha256": "63985bd4ce64e9a0142d70465c3a7f54c488f3ef6da3f9512d54a728cde46870",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "meshoptimizer",
+    "version": "1.1.1",
+    "url": "https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-1.1.1.tgz",
+    "npm_integrity": "sha512-oRFNWJRDA/WTrVj7NWvqa5HqE1t9MYDj2VaWirQCzCCrAd2GHrqR/sQezCxiWATPNlKTcRaPRHPJwIRoPBAp5g==",
+    "bytes": 72797,
+    "sha256": "c23bef9ef57613c8a4e85d446c738154e52cac38e1a017dfb6ed33cfffa43593",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "nanoid",
+    "version": "3.3.20",
+    "url": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+    "npm_integrity": "sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==",
+    "bytes": 5721,
+    "sha256": "5ae134779aa22c2c04b691d361bc1f3c004c354e81c7ee166ea1c6e848eedc4f",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "parse5",
+    "version": "8.1.0",
+    "url": "https://registry.npmjs.org/parse5/-/parse5-8.1.0.tgz",
+    "npm_integrity": "sha512-sq3qBFpee5jeocbFbO48VHlGr8sT7mbXS0vxlKN6sottBtJzrOG3998sr0llSZcQAGgfpdmEYAIZE0P9z0dE8w==",
+    "bytes": 59407,
+    "sha256": "eded22e36de43a6cd10f91e0e2e07c990b07d669cf34cd53fdb8fe0ba28c968d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+    "npm_integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+    "bytes": 2625,
+    "sha256": "d3aedb2807967b7eb37fd11b03b7e3701e725af79c650d0812ff7213f8f882d9",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+    "npm_integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+    "bytes": 24326,
+    "sha256": "697b463be3cdbd9ffc8f4194fd5019a69ddf95875fb703d78b2b115cc9e740a8",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.32",
+    "url": "https://registry.npmjs.org/postcss/-/postcss-8.5.32.tgz",
+    "npm_integrity": "sha512-LJlKCCAUFKOuZxipUdYw1NzIITEsPcgyOG9LkvRJvuKj/bRzbuRY0ARXvL0pWGpsZvn8jku+LMep2eU0seHp8g==",
+    "bytes": 52987,
+    "sha256": "8e8eb3453860bfc35cd0e51653a3565980a2d83e4ddcf93f8fa5455754cf9066",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "punycode",
+    "version": "2.3.1",
+    "url": "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz",
+    "npm_integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+    "bytes": 7603,
+    "sha256": "e4ce59f9fbac44349abab87279ab658f6b4614916bec5e088ae3be9323e193bb",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "url": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+    "npm_integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+    "bytes": 26394,
+    "sha256": "56936913918dcf1f7a6fe58784e79df54b18200a88655ce809cf5e9c4ef871aa",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "url": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+    "npm_integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+    "bytes": 1410652,
+    "sha256": "8b49975821eec6311e00d2b3f4b8337923253c876517388a33f9839c61ab262e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "react-use-measure",
+    "version": "2.1.7",
+    "url": "https://registry.npmjs.org/react-use-measure/-/react-use-measure-2.1.7.tgz",
+    "npm_integrity": "sha512-KrvcAo13I/60HpwGO5jpW7E9DfusKyLPLvuHlUyP5zqnmAPhNc6qTRjUQrdTADl0lpPpDVU2/Gg51UlOGHXbdg==",
+    "bytes": 8391,
+    "sha256": "927e2feef8d1d014b2b45159a2091afd6b41499942a82736a1518cac0e007005",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "url": "https://registry.npmjs.org/require-from-string/-/require-from-string-2.0.2.tgz",
+    "npm_integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",
+    "bytes": 1816,
+    "sha256": "cb694a4965908f7775a0c757f00cf4e624d193cd71d77988fbcca0f597b88d82",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.16",
+    "url": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.16.tgz",
+    "npm_integrity": "sha512-bWvlMpFKiTfDKfnK7FC2MPgPeWCf/Kpwsq49ApdW+FQaBZb6O6dZ4MAPbPUjp7hYQrw/RobqCzn64BRrQecGHw==",
+    "bytes": 205329,
+    "sha256": "9a86591756be331a7686bc11bdc3f41d51ced8bcb13a888d9e34038cae31030b",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "saxes",
+    "version": "6.0.0",
+    "url": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz",
+    "npm_integrity": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+    "bytes": 35374,
+    "sha256": "1cdf52fbbe1ccbd175c365d2b8e63f46e590e74aff23fa6a44a6ec51522e96db",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "url": "https://registry.npmjs.org/scheduler/-/scheduler-0.28.0.tgz",
+    "npm_integrity": "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw==",
+    "bytes": 10011,
+    "sha256": "302995d590e3c0a11eeb40d1d0f299c1df1800135d599d85cdd5faeb614f32d6",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "url": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+    "npm_integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+    "bytes": 36349,
+    "sha256": "05c8cf8e7c3a6b56cada7668fe9342b10f4b625efc92aba9ba05b9e8fe4d71a3",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "suspend-react",
+    "version": "0.1.3",
+    "url": "https://registry.npmjs.org/suspend-react/-/suspend-react-0.1.3.tgz",
+    "npm_integrity": "sha512-aqldKgX9aZqpoDp3e8/BZ8Dm7x1pJl+qI3ZKxDN0i/IQTWUwBx/ManmlVJ3wowqbno6c2bmiIfs+Um6LbsjJyQ==",
+    "bytes": 4547,
+    "sha256": "0a67f39c28df9da47e13d391b862141104bd1c4dcfec30301ab941a14993d65e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "three",
+    "version": "0.184.0",
+    "url": "https://registry.npmjs.org/three/-/three-0.184.0.tgz",
+    "npm_integrity": "sha512-wtTRjG92pM5eUg/KuUnHsqSAlPM296brTOcLgMRqEeylYTh/CdtvKUvCyyCQTzFuStieWxvZb8mVTMvdPyUpxg==",
+    "bytes": 12661342,
+    "sha256": "5c8c75278504ff31cedcd736e043b06c18f2cbf220ad7f85fbfaa1a08d3b3626",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "url": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+    "npm_integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+    "bytes": 7873,
+    "sha256": "afb4afae9175f8b873ac13e1d21cea0997a0bcb40c3598613a834490058cb562",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "tldts",
+    "version": "7.4.19",
+    "url": "https://registry.npmjs.org/tldts/-/tldts-7.4.19.tgz",
+    "npm_integrity": "sha512-48dH6aSpQnpbzDUc4vIQZ1VjB8tkK+e8c1yx05/SZK+rkssgjEOlxDd/yU8/a4vGYQ9vRgJr9dwMq9TJ0b3X2Q==",
+    "bytes": 685446,
+    "sha256": "3638be310796dc356da96affa5370e6ca9b4dcd2e4bbd3548b1cd3d6e3150297",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "tldts-core",
+    "version": "7.4.20",
+    "url": "https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.20.tgz",
+    "npm_integrity": "sha512-C630TWXZCZmLq0F2bW4QqwnaaxCQ/svpAqvJwnC4JvgEM5ohhBnGsEzTLSOXcN+xjz+kEaHS5uoWIw2klnqd0A==",
+    "bytes": 83690,
+    "sha256": "728346ae9c63ebfb6758cf528731b019dba90dfb186292cf7c30263c64d253bc",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "tough-cookie",
+    "version": "6.0.2",
+    "url": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz",
+    "npm_integrity": "sha512-exgYmnmL/sJpR3upZfXG5PoatXQii55xAiXGXzY+sROLZ/Y+SLcp9PgJNI9Vz37HpQ74WvDcLT8eqm+kV3FzrA==",
+    "bytes": 159373,
+    "sha256": "9f8413255be6492501f0d9344034aa517d578afd5e7114ebb26627eee9a62670",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "tr46",
+    "version": "7.0.0",
+    "url": "https://registry.npmjs.org/tr46/-/tr46-7.0.0.tgz",
+    "npm_integrity": "sha512-BcDSDW+SIGWVOns1Zm6Yg91q9AEj7eaID0QDY9oIqJD1A8dscNwMcl9Sms2DeuWCNov1X0/oXanHGYQBSLwZsg==",
+    "bytes": 65623,
+    "sha256": "71ae6e18972e8cccfb5fe09a5e1a47ad2897e8e13c9c10029168e8fa4a03c71d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "typescript",
+    "version": "7.0.2",
+    "url": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+    "npm_integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+    "bytes": 365612,
+    "sha256": "da2513f4b95176d6dde8b51aab7afe8a927656c9d277369793f77f7e59371c08",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "undici",
+    "version": "8.12.4",
+    "url": "https://registry.npmjs.org/undici/-/undici-8.12.4.tgz",
+    "npm_integrity": "sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==",
+    "bytes": 547266,
+    "sha256": "26058cdb2174623666e823e6b44ccfef8d5c1955107f979b8083904b61a0ce6e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "undici-types",
+    "version": "6.21.0",
+    "url": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+    "npm_integrity": "sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==",
+    "bytes": 21020,
+    "sha256": "cfa1a9a5e18988850e548f4f6b629c58da32dc32bebb116e58ea301e516fd16d",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "use-sync-external-store",
+    "version": "1.7.0",
+    "url": "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.7.0.tgz",
+    "npm_integrity": "sha512-6L+EeigHMQhdaIPNIFUKwfWJSwWFQ8gJbJ2DLOs5sDIegTwR9fRxvnM3uciHKjIZhFz+KAv2emhWMRvDmMcY8A==",
+    "bytes": 4189,
+    "sha256": "4f62a44660396a55417322fb0c71c14413b784192e4cd18acfec6bdf3157e359",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.6",
+    "url": "https://registry.npmjs.org/vite/-/vite-8.3.6.tgz",
+    "npm_integrity": "sha512-UI7dK29NnS54Fk+mmo7o+jI6U8Fp7hDl+X5Q1k45WH+d4dSlbLVUETGQ+hfkNgvLQGyoElPj837nZyv4MBc0VA==",
+    "bytes": 588019,
+    "sha256": "37d3d625af80de80e6fb51b97bebd79c15a767aace9818675cd475f480a840ee",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "w3c-xmlserializer",
+    "version": "6.0.0",
+    "url": "https://registry.npmjs.org/w3c-xmlserializer/-/w3c-xmlserializer-6.0.0.tgz",
+    "npm_integrity": "sha512-4Nsy8K5Tr6SPDH9jhKJOHf7ChDrc1zufZTVSF7x72hwuEXBqxqk9G6cK+K2NRUtB3iELRJqjXb4JPDMBjMTl2Q==",
+    "bytes": 5340,
+    "sha256": "39f71a0e53077678990e1d339a1d9f18c5212737e349fbbd61da37c3e97286a1",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "webidl-conversions",
+    "version": "8.0.1",
+    "url": "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-8.0.1.tgz",
+    "npm_integrity": "sha512-BMhLD/Sw+GbJC21C/UgyaZX41nPt8bUTg+jWyDeg7e7YN4xOM05YPSIXceACnXVtqyEw/LMClUQMtMZ+PGGpqQ==",
+    "bytes": 7326,
+    "sha256": "016809c2063e0f2066d11deec4fa7d563455b454fab66c3563ab5b52cccbb9e9",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "whatwg-mimetype",
+    "version": "5.0.0",
+    "url": "https://registry.npmjs.org/whatwg-mimetype/-/whatwg-mimetype-5.0.0.tgz",
+    "npm_integrity": "sha512-sXcNcHOC51uPGF0P/D4NVtrkjSU2fNsm9iog4ZvZJsL3rjoDAzXZhkm2MWt1y+PUdggKAYVoMAIYcs78wJ51Cw==",
+    "bytes": 10895,
+    "sha256": "381cefd6ed7b22bff38372719eb71c037b7554ad798ab71b8fd605763c37aed8",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "whatwg-url",
+    "version": "17.3.0",
+    "url": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.3.0.tgz",
+    "npm_integrity": "sha512-KwOAJrpf+GTgBvcBQJcP38sMF0DsQKdwtG+TxM2pW44P6E5k0hDbWrDmyuJDIF0Uef0aQq0ZoJs+5oI+k8ddhg==",
+    "bytes": 24818,
+    "sha256": "e12439d177634a6570ac58b762bcb3e34fb7631ff4922a7b0a9628a8acf6d70b",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "xml-name-validator",
+    "version": "5.0.0",
+    "url": "https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-5.0.0.tgz",
+    "npm_integrity": "sha512-EvGK8EJ3DhaHfbRlETOWAS5pO9MZITeauHKJyb8wyajUfQUenkIg2MvLDTZ4T/TgIcm3HU0TFBgWWboAZ30UHg==",
+    "bytes": 4678,
+    "sha256": "3d40b1428dae32a6328ea20543abaafb72101a2652a95f43ec8757fef213f0be",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "xmlchars",
+    "version": "2.2.0",
+    "url": "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz",
+    "npm_integrity": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==",
+    "bytes": 11752,
+    "sha256": "bdf900298963e4bd95b76aa95e96d29f05687e6ae662d617061778267b576da8",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  },
+  {
+    "name": "zustand",
+    "version": "5.0.16",
+    "url": "https://registry.npmjs.org/zustand/-/zustand-5.0.16.tgz",
+    "npm_integrity": "sha512-Uv7e327ihlCfayfja3hDc0M64Upev1LWBKpRobdK4NyovDDPeeX4imWXc/wzC1yc6fkYPoAY/ncKVPAs2jrtQw==",
+    "bytes": 23018,
+    "sha256": "fd0edff32f0a7f6a440dba81c0f5db644b710adcea7e54a35eef6cf976cb8d7e",
+    "source": "pre-existing exact public npm tarball bytes selected from cache, before metadata preparation; no fresh tarball download"
+  }
+]

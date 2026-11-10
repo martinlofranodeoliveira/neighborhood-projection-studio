@@ -1,0 +1,18 @@
+{
+  "status": "MINIMAL_COLD_OFFLINE_RESTORE_IMPORT_PASS",
+  "versions": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.184.0",
+    "@react-three/fiber": "9.8.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.6",
+    "@vitejs/plugin-react": "6.2.1",
+    "jsdom": "30.1.3"
+  },
+  "three_revision": "184",
+  "rolldown_import": true,
+  "node": "v22.23.4",
+  "installed": 82,
+  "scope": "No compiler/build/WebGL invoked; actual prebuilt binding import only"
+}

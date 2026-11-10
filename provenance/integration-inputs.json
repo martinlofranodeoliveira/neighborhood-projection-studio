@@ -1,0 +1,15 @@
+{
+  "status": "PRIVATE_COMBINATION_OF_ACCEPTED_PYTHON_AND_FRONTEND",
+  "python_source_tree_sha256": "f5e89a567326ec5a1736a99aaaae1506b52e903670301adb07c3fb1d9bb11204",
+  "python_source_files": 275,
+  "frontend_source_tree_sha256": "7174c76e526f276359e30cf53f1d29442ed4b5758b5e6337a328791d669476cd",
+  "frontend_source_files": 127,
+  "overlapping_input_paths": [],
+  "python_notice_texts_preserved": 222,
+  "frontend_notice_texts_preserved": 83,
+  "runtime_sources": "Original Python4core/CLI and frontend5files copied byte-for-byte; only documented integration helpers/docs/CI may change.",
+  "python_review": "stage2-cli-review/root-review-adjudication.json",
+  "frontend_review": "frontend-review-v2/root-review-adjudication.json",
+  "frontend_acceptance": "Static review only; browser/GPU/visual finish remains recapture.",
+  "primary_generation_complete": false
+}

@@ -1,0 +1,110 @@
+{
+  "status": "DISPLAY_NORMALIZATION_POSTCONDITIONS_ONLY_NOT_PRODUCT_OR_PCA_GPU_TESTS",
+  "rootinstruction_source": "Parent/root message: normalize CPU binary64 before Float32; maxAbs first; canonical values/digest/ranks unchanged; zero extent no spreading.",
+  "cases": [
+    {
+      "id": "tiny-nonconstant-scores",
+      "coordinates": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1e-160,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2e-160,
+          0.0
+        ]
+      ],
+      "danger": "Float32 before CPU normalization collapses values; inverse tiny scale cannot go in instanceMatrix",
+      "required": [
+        "finite bounded display positions",
+        "distinct finite displayed extents when CPU normalization can represent them",
+        "canonical coordinates/metrics/digest unchanged"
+      ]
+    },
+    {
+      "id": "huge-finite-import",
+      "coordinates": [
+        [
+          -1e+308,
+          0.0,
+          0.0
+        ],
+        [
+          1e+308,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1e+308,
+          0.0
+        ]
+      ],
+      "danger": "Direct max-min overflows despite every input coordinate being finite",
+      "required": [
+        "maxAbs division before range/center",
+        "finite bounded display positions",
+        "import remains unverified"
+      ]
+    },
+    {
+      "id": "collapsed-finite-import",
+      "coordinates": [
+        [
+          1e+308,
+          -1e+308,
+          1e-160
+        ],
+        [
+          1e+308,
+          -1e+308,
+          1e-160
+        ],
+        [
+          1e+308,
+          -1e+308,
+          1e-160
+        ]
+      ],
+      "danger": "Zero extent must not trigger division, jitter or fabricated spread",
+      "required": [
+        "all display positions collapsed finite",
+        "all IDs remain available to DOM inspection",
+        "canonical coordinates unchanged"
+      ]
+    },
+    {
+      "id": "subnormal-range-beside-huge-offset",
+      "coordinates": [
+        [
+          1e+308,
+          0.0,
+          0.0
+        ],
+        [
+          1e+308,
+          1e-12,
+          0.0
+        ],
+        [
+          1e+308,
+          2e-12,
+          0.0
+        ]
+      ],
+      "danger": "After maxAbs normalization extent may be subnormal; forming reciprocal overflows",
+      "required": [
+        "divide each CPU delta by extent before displaySpan multiplication",
+        "do not store extreme normalization in Float32 instanceMatrix",
+        "finite bounded display positions or honest collapse only if CPU representational extent is zero"
+      ]
+    }
+  ]
+}

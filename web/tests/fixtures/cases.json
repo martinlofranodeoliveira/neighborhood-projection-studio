@@ -1,0 +1,949 @@
+{
+  "status": "INDEPENDENT_PRE_PRODUCT_FRONTEND_ORACLES_NOT_APP_TESTS",
+  "count": 40,
+  "scope": "Finite declarative corpus, not a production validator/reducer. No PCA fit or browser execution claimed. STATE event names are abstract adapter instructions, not an app API.",
+  "mutation_language": "Only set/delete/swap/rename_id/refresh_input_digest/set_json_number_token. Tokens are data; do not execute them as code.",
+  "cases": [
+    {
+      "id": "accept-available-literal-study",
+      "kind": "ACCEPT",
+      "base": "available-literal-study.json",
+      "postconditions": {
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "all_rows_available_for_DOM_inspection": 16
+      }
+    },
+    {
+      "id": "accept-constant-serializer-golden",
+      "kind": "ACCEPT",
+      "base": "constant-serializer-golden.json",
+      "postconditions": {
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "all_rows_available_for_DOM_inspection": 16,
+        "scatter_visible": false,
+        "neighborhood_reading": "UNAVAILABLE_CONSTANT_INPUT",
+        "metric_values_null": true
+      }
+    },
+    {
+      "id": "accept-numeric-string-ids-study",
+      "kind": "ACCEPT",
+      "base": "numeric-string-ids-study.json",
+      "postconditions": {
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "all_rows_available_for_DOM_inspection": 16,
+        "first_id": "001",
+        "id_type": "string",
+        "numeric_coercion": false
+      }
+    },
+    {
+      "id": "reject-extra-root-field",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "is_verified"
+          ],
+          "value": true
+        }
+      ],
+      "violated_invariant": "closed-root-and-no-caller-provenance-upgrade"
+    },
+    {
+      "id": "reject-missing-mean",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "delete",
+          "path": [
+            "pca",
+            "mean"
+          ]
+        }
+      ],
+      "violated_invariant": "required-pca-field"
+    },
+    {
+      "id": "reject-boolean-counter",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "work",
+            "fit_count"
+          ],
+          "value": true
+        }
+      ],
+      "violated_invariant": "strict-integer-not-bool"
+    },
+    {
+      "id": "reject-unsafe-integer",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "work",
+            "actual_distance_entries"
+          ],
+          "value": 9007199254740992
+        }
+      ],
+      "violated_invariant": "safe-integer-and-fixed-work"
+    },
+    {
+      "id": "reject-rank-zero",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "relations",
+            1,
+            "input_rank"
+          ],
+          "value": 0
+        }
+      ],
+      "violated_invariant": "rank-in-1-to-n-minus-1"
+    },
+    {
+      "id": "reject-self-neighbor",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            0,
+            "input_neighbors",
+            0
+          ],
+          "value": "p0000"
+        }
+      ],
+      "violated_invariant": "self-excluded-by-id"
+    },
+    {
+      "id": "reject-duplicate-neighbor",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            0,
+            "input_neighbors",
+            1
+          ],
+          "value": "p0001"
+        }
+      ],
+      "violated_invariant": "neighbor-ids-distinct"
+    },
+    {
+      "id": "reject-unknown-neighbor",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            0,
+            "projected_neighbors",
+            0
+          ],
+          "value": "unknown"
+        }
+      ],
+      "violated_invariant": "known-row-id-only"
+    },
+    {
+      "id": "reject-neighbor-order",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "swap",
+          "path": [
+            "neighborhood",
+            "receipts",
+            0,
+            "input_neighbors"
+          ],
+          "indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "violated_invariant": "list-position-equals-relation-rank"
+    },
+    {
+      "id": "reject-relations-order",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "swap",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "relations"
+          ],
+          "indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "violated_invariant": "relation-union-sorted-ASCII"
+    },
+    {
+      "id": "reject-receipts-order",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "swap",
+          "path": [
+            "neighborhood",
+            "receipts"
+          ],
+          "indices": [
+            0,
+            1
+          ]
+        }
+      ],
+      "violated_invariant": "receipt-order-matches-canonical-ids"
+    },
+    {
+      "id": "reject-wrong-category",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "relations",
+            1,
+            "category"
+          ],
+          "value": "RETAINED"
+        }
+      ],
+      "violated_invariant": "category-iff-rank-membership"
+    },
+    {
+      "id": "reject-relation-penalty",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "relations",
+            1,
+            "penalty"
+          ],
+          "value": 0
+        }
+      ],
+      "violated_invariant": "introduced-penalty-is-input-rank-minus-k"
+    },
+    {
+      "id": "reject-intersection-count",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "retained_count"
+          ],
+          "value": 2
+        }
+      ],
+      "violated_invariant": "retained-count-exact-intersection"
+    },
+    {
+      "id": "reject-aggregate-penalty",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "total_penalty"
+          ],
+          "value": 9
+        }
+      ],
+      "violated_invariant": "aggregate-penalty-sum"
+    },
+    {
+      "id": "reject-aggregate-retained",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "total_retained"
+          ],
+          "value": 25
+        }
+      ],
+      "violated_invariant": "aggregate-retained-sum"
+    },
+    {
+      "id": "reject-nonreduced-fraction",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "trustworthiness_fraction"
+          ],
+          "value": {
+            "numerator": 98,
+            "denominator": 100
+          }
+        }
+      ],
+      "violated_invariant": "fraction-reduced"
+    },
+    {
+      "id": "reject-wrong-fraction",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "trustworthiness_fraction"
+          ],
+          "value": {
+            "numerator": 1,
+            "denominator": 1
+          }
+        }
+      ],
+      "violated_invariant": "fraction-matches-penalty"
+    },
+    {
+      "id": "reject-fraction-extra-field",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "retention_fraction",
+            "approximation"
+          ],
+          "value": 0.75
+        }
+      ],
+      "violated_invariant": "fraction-exact-two-keys"
+    },
+    {
+      "id": "reject-overflow-number-coordinate",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set_json_number_token",
+          "path": [
+            "pca",
+            "scores3",
+            0,
+            0
+          ],
+          "token": "1e400"
+        }
+      ],
+      "violated_invariant": "finite-binary64-after-JSON-parse"
+    },
+    {
+      "id": "reject-constant-nullability",
+      "kind": "REJECT",
+      "base": "constant-serializer-golden.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "total_penalty"
+          ],
+          "value": 0
+        }
+      ],
+      "violated_invariant": "constant-aggregates-null-not-zero"
+    },
+    {
+      "id": "reject-constant-available-state",
+      "kind": "REJECT",
+      "base": "constant-serializer-golden.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "state"
+          ],
+          "value": "AVAILABLE"
+        }
+      ],
+      "violated_invariant": "constant-unavailable-state"
+    },
+    {
+      "id": "reject-leading-hyphen-row-id",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "rename_id",
+          "old": "p0000",
+          "new": "-p0000",
+          "refresh_input_digest": true
+        }
+      ],
+      "violated_invariant": "identifier-first-character"
+    },
+    {
+      "id": "reject-leading-hyphen-feature",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "input",
+            "feature_names",
+            0
+          ],
+          "value": "-f0"
+        },
+        {
+          "op": "refresh_input_digest"
+        }
+      ],
+      "violated_invariant": "feature-first-character"
+    },
+    {
+      "id": "reject-duplicate-row-id",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "input",
+            "row_ids",
+            1
+          ],
+          "value": "p0000"
+        }
+      ],
+      "violated_invariant": "row-ids-unique"
+    },
+    {
+      "id": "reject-valid-hex-digest-mismatch",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "input",
+            "digest_sha256"
+          ],
+          "value": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "violated_invariant": "mandatory-NPSinput1-digest-match"
+    },
+    {
+      "id": "reject-duplicate-union-rank",
+      "kind": "REJECT",
+      "base": "available-literal-study.json",
+      "operations": [
+        {
+          "op": "set",
+          "path": [
+            "neighborhood",
+            "receipts",
+            1,
+            "relations",
+            1,
+            "input_rank"
+          ],
+          "value": 1
+        }
+      ],
+      "violated_invariant": "union-ranks-distinct"
+    },
+    {
+      "id": "shared-selection-scene-DOM-2D",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "select",
+          "source": "scene",
+          "id": "p0010"
+        },
+        {
+          "event": "select",
+          "source": "DOM",
+          "id": "p0000"
+        },
+        {
+          "event": "select",
+          "source": "2D",
+          "id": "p0001"
+        }
+      ],
+      "postconditions": {
+        "selected_id": "p0001",
+        "source_views_share_one_id": true,
+        "selected_feature_values": [
+          -6,
+          -4,
+          -2,
+          1
+        ],
+        "input_neighbors": [
+          "p0000",
+          "p0011"
+        ],
+        "projected_neighbors": [
+          "p0000",
+          "p0010"
+        ],
+        "retained": [
+          "p0000"
+        ],
+        "lost": [
+          "p0011"
+        ],
+        "introduced": [
+          "p0010"
+        ],
+        "relation_line_ids": [
+          "p0000",
+          "p0010",
+          "p0011"
+        ],
+        "max_relation_lines": 4,
+        "analysis_recompute_count": 0
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "late-file-import-ignored",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "import_begin",
+          "token": "B"
+        },
+        {
+          "event": "validated_digest_complete",
+          "token": "B",
+          "fixture": "available-literal-study.json"
+        },
+        {
+          "event": "file_read_complete",
+          "token": "A",
+          "fixture": "constant-serializer-golden.json"
+        }
+      ],
+      "postconditions": {
+        "committed_fixture": "available-literal-study.json",
+        "ignored_token": "A",
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED"
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "invalid-import-preserves-valid",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "validation_reject",
+          "token": "A",
+          "case": "reject-overflow-number-coordinate"
+        }
+      ],
+      "postconditions": {
+        "preserve_study_bytes": true,
+        "preserve_selection": true,
+        "preserve_locale_visibility": true,
+        "generic_error_without_input_echo": true
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "new-invalid-attempt-revokes-old-pending",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "import_begin",
+          "token": "B"
+        },
+        {
+          "event": "validation_reject",
+          "token": "B",
+          "case": "reject-extra-root-field"
+        },
+        {
+          "event": "validated_digest_complete",
+          "token": "A",
+          "fixture": "constant-serializer-golden.json"
+        }
+      ],
+      "postconditions": {
+        "preserve_study_bytes": true,
+        "preserve_selection": true,
+        "preserve_locale_visibility": true,
+        "ignored_token": "A"
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "locale-visibility-is-presentation-only",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "locale",
+          "value": "en"
+        },
+        {
+          "event": "visibility",
+          "category": "introduced",
+          "value": false
+        },
+        {
+          "event": "attempt_edit_analysis_k",
+          "value": 3
+        }
+      ],
+      "postconditions": {
+        "locale": "en",
+        "introduced_visible": false,
+        "plan_k": 2,
+        "study_bytes_unchanged": true,
+        "selected_id": "p0001",
+        "analysis_recompute_count": 0,
+        "k_edit_requires_new_SDK_run_or_import": true
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "camera-and-GPU-buffers-not-metric-space",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "camera_change",
+          "view": "orthographic"
+        },
+        {
+          "event": "uniform_scene_transform",
+          "scale": 2,
+          "translation": [
+            10,
+            -4,
+            2
+          ]
+        },
+        {
+          "event": "fault_inject_rounded_scene_buffers",
+          "description": "display-only values; not canonical report or input digest"
+        }
+      ],
+      "postconditions": {
+        "study_bytes_unchanged": true,
+        "digest_unchanged": true,
+        "canonical_scores_unchanged": true,
+        "ranks_penalties_fractions_unchanged": true,
+        "analysis_recompute_count": 0,
+        "no_jitter_or_per_axis_stretch": true
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "known-producer-valid-digest-never-upgrades-trust",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "validated_digest_complete",
+          "token": "A",
+          "fixture": "available-literal-study.json",
+          "producer_matches_qualified_package": true,
+          "WebCrypto_digest_matches": true
+        }
+      ],
+      "postconditions": {
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "no_execution_attestation": true
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "stale-WebCrypto-completion-ignored",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "file_read_complete",
+          "token": "A",
+          "fixture": "constant-serializer-golden.json"
+        },
+        {
+          "event": "digest_pending",
+          "token": "A"
+        },
+        {
+          "event": "import_begin",
+          "token": "B"
+        },
+        {
+          "event": "validated_digest_complete",
+          "token": "B",
+          "fixture": "numeric-string-ids-study.json"
+        },
+        {
+          "event": "digest_complete",
+          "token": "A",
+          "matches": true
+        }
+      ],
+      "postconditions": {
+        "committed_fixture": "numeric-string-ids-study.json",
+        "ignored_token": "A",
+        "ids_preserved_as_strings": true,
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED"
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "capability-error-WebCrypto_unavailable",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "capability_error",
+          "capability": "WebCrypto_unavailable"
+        }
+      ],
+      "postconditions": {
+        "stable_capability_error": true,
+        "preserve_study_bytes": true,
+        "preserve_selection": true,
+        "preserve_locale_visibility": true,
+        "no_manual_SHA_fallback": true
+      },
+      "browser_execution_performed": false
+    },
+    {
+      "id": "capability-error-insecure_context",
+      "kind": "STATE_POSTCONDITIONS",
+      "initial": {
+        "study": "available-literal-study.json",
+        "selected_id": "p0001",
+        "locale": "pt-BR",
+        "visibility": {
+          "retained": true,
+          "lost": true,
+          "introduced": true
+        },
+        "provenance": "IMPORTED_ANALYSIS_UNVERIFIED",
+        "analysis_recompute_count": 0
+      },
+      "events": [
+        {
+          "event": "import_begin",
+          "token": "A"
+        },
+        {
+          "event": "capability_error",
+          "capability": "insecure_context"
+        }
+      ],
+      "postconditions": {
+        "stable_capability_error": true,
+        "preserve_study_bytes": true,
+        "preserve_selection": true,
+        "preserve_locale_visibility": true,
+        "no_manual_SHA_fallback": true
+      },
+      "browser_execution_performed": false
+    }
+  ]
+}

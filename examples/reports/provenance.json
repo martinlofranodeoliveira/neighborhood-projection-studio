@@ -1,0 +1,142 @@
+{
+  "status": "ACTUAL_FIXED_SDK_THREE_SYNTHETIC_SAMPLE_EXPORTS",
+  "module": "/opt/neighborhood-runtime/lib/python3.13/site-packages/neighborhood_projection_studio/__init__.py",
+  "module_hashes": {
+    "__init__.py": "5db1ce873ed2554b9bed8fc20546fbfaa10b4fb3e3ee57096ddce5cb70b6ab48",
+    "_ranks.py": "2e494aefaf70ccb7655cb2556c8ac8ed9e9aaafe02ff5a712c8883dc5d66ae4f",
+    "core.py": "432c1b72af5b6cdb3f9066430da5b951a9b5b9a8921250773a46b784aa1ea6f5",
+    "types.py": "0871c734cbefe1779c7bc50ff1771e75b5b7a0a3e098cf57f4555cf96b18ccad"
+  },
+  "reports": [
+    {
+      "name": "constant",
+      "input_sha256": "932c6852563ec42f08d19177c1612052f6b922ce4fbf2f3b2494e9b2e216deab",
+      "json_bytes": 1866,
+      "json_sha256": "392c31315ac0b73be1fc0a271743a66d3bd1c5c325bb8895394a5eba07b30dd9",
+      "csv_bytes": 811,
+      "csv_sha256": "4df59ef3426f03a82831c0f7cb8702f73f3670c014da7b700889f3d8eb6526f8",
+      "signal_state": "CONSTANT_INPUT",
+      "flags": [
+        "CUTOFF_NEAR_TIE",
+        "RETAINED_AXES_NEAR_TIE",
+        "RANK_BELOW_3_POLICY"
+      ],
+      "actual_fit": {
+        "shape": [
+          16,
+          4
+        ],
+        "native_threads": [
+          1,
+          1,
+          1
+        ],
+        "params": {
+          "n_components": null,
+          "svd_solver": "full",
+          "whiten": false,
+          "copy": true
+        }
+      },
+      "observed_versions": {
+        "numpy": "2.5.4",
+        "python": "3.13.18",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "threadpoolctl": "3.8.0"
+      }
+    },
+    {
+      "name": "weighted",
+      "input_sha256": "75f28e936dfb58d6b4547764ed47e00f1e730b2a3ae3758325f62a1958ad58fd",
+      "json_bytes": 10039,
+      "json_sha256": "6bab67e1cb04c39906632a54cf25fe61d9740c98e595ae0053e0623a578707b2",
+      "csv_bytes": 872,
+      "csv_sha256": "bc5d95d3d7fc4944ff92e5330c5043153069054dcfc035e1861dfee1e70faada",
+      "signal_state": "NONCONSTANT_INPUT",
+      "flags": [],
+      "actual_fit": {
+        "shape": [
+          16,
+          4
+        ],
+        "native_threads": [
+          1,
+          1,
+          1
+        ],
+        "params": {
+          "n_components": null,
+          "svd_solver": "full",
+          "whiten": false,
+          "copy": true
+        }
+      },
+      "observed_versions": {
+        "numpy": "2.5.4",
+        "python": "3.13.18",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "threadpoolctl": "3.8.0"
+      }
+    },
+    {
+      "name": "tied",
+      "input_sha256": "a0e13b5df8d886b47d56af626752b8ebfce5cddd9aeff4d2196aacb43856c498",
+      "json_bytes": 12325,
+      "json_sha256": "b62173c5a02ec6ae4ea182bcaa104e4b4a16fbf3c4b641962c0e73e9abfce2f2",
+      "csv_bytes": 1139,
+      "csv_sha256": "9094f8fd0df3b3176375072a8d9c5d406b3beb7561be4887202132a4f5d70a46",
+      "signal_state": "NONCONSTANT_INPUT",
+      "flags": [
+        "CUTOFF_NEAR_TIE",
+        "RETAINED_AXES_NEAR_TIE"
+      ],
+      "actual_fit": {
+        "shape": [
+          16,
+          4
+        ],
+        "native_threads": [
+          1,
+          1,
+          1
+        ],
+        "params": {
+          "n_components": null,
+          "svd_solver": "full",
+          "whiten": false,
+          "copy": true
+        }
+      },
+      "observed_versions": {
+        "numpy": "2.5.4",
+        "python": "3.13.18",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "threadpoolctl": "3.8.0"
+      }
+    }
+  ],
+  "scope": "Actual fullPCA fits/SDK bytes, not handliteral output, scientific chart, browser proof, statistical quality or source authenticity proof for future imports.",
+  "container": {
+    "image": "sha256:d56c4634061a981593ecca7dee7434b4ee9d238dbf2a4dc332351dcdb6dc3bd1",
+    "exit": 0,
+    "oom_killed": false,
+    "user": "1000:1000",
+    "network": "none",
+    "binds": null,
+    "mounts": [],
+    "cap_drop": [
+      "ALL"
+    ],
+    "security_opt": [
+      "no-new-privileges"
+    ],
+    "pids_limit": 256,
+    "memory": 1073741824,
+    "nano_cpus": 2000000000,
+    "read_only": true
+  },
+  "source_core_freeze": "54dac8ff2c72685f2fab198f28fb4fa87ce429d5f886229e3bab1cb53d88a966"
+}

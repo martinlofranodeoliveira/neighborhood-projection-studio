@@ -1,0 +1,11 @@
+# Qualified frontend closure
+
+This private foundation keeps React/react-dom 19.3.1, Three 0.184.0 and Fiber 9.8.2 with the already qualified TypeScript 7.0.2, Vite 8.3.6 and JSDOM 30.1.3 closure. It adds no Drei, OrbitControls, test renderer, fonts or further package. The exact maintained lock contains 124 dependency entries; 82 packages install on this Linux x86_64 SDK and 42 platform-specific entries remain absent.
+
+`dependency-notices/sources.json` binds the actual installed-package identities and retained full notice files, copied from the earlier minimum-closure qualification. `public/third-party-notices.txt` includes that complete **installed SDK closure**, including development/build tools; it does not claim that every listed package is present in the browser JavaScript. Vite copies this local asset during the future real build.
+
+Retained license text lives under `dependency-notices/notices/npm-packages/` or `notices/upstream/`. These are text assets, not installed dependencies. The neutral directory name keeps every term visible to the publisher's source inventory. Each package's original `node_modules/...` identity and each original notice location remain in `original_package_path` and `original_notice_path`; notice hashes and text bytes are unchanged.
+
+The Fiber MIT release text and Saxes fork/historical terms retain their recorded provenance. Rolldown 1.2.16 and both native binding packages retain the official same-release MIT and companion notice texts. The complete embedded Rust/musl/static native component graph has **not** been demonstrated. That SDK-tool limitation remains open; these files do not claim to reconstruct the binary link graph or prove every static component's legal closure. No native compiler or new SDK is introduced here.
+
+The preparation reuses exact integrity-addressed public tarballs in the isolated qualified cache. Maintained npm renames the root package with `--package-lock-only --offline --ignore-scripts`; every non-root lock entry is independently compared with the previous lock. Native verification restores into a clean temporary directory with network disabled. This is a cold installation from the existing cache, not a fresh network download or a browser rendering test.
