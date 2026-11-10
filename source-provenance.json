@@ -1,0 +1,29 @@
+{
+  "project": "neighborhood-projection-studio",
+  "source_commit": "a16d805469fab06c7cb7b7adc9257e31654497fc",
+  "source_inventory_sha256": "09157a3b7becbc96ac451cbd747a202c9d7547cc6066c0a337739661bcd1c27f",
+  "assets": [
+    {
+      "path": "assets/index-AX12ZuXf.css",
+      "bytes": 12372,
+      "sha256": "4519c4f62de842a904d40eef79ba14c2bae60d59530e28458eb3c9a7bb0672c2"
+    },
+    {
+      "path": "assets/index-CNukop6-.js",
+      "bytes": 1308414,
+      "sha256": "e8fdd3175b64b4b68fd79c1f52dc46663fcfc7462bea4d7c40093e0383dc7e95"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1432,
+      "sha256": "8f9500f02a5f402d96b0e342b15fa775e2316c0cc444b363b6dce8c518a05d69"
+    },
+    {
+      "path": "third-party-notices.txt",
+      "bytes": 407831,
+      "sha256": "1c67f712b5b55de2e0c61e79ce1dfdb17b10c503ee24bfd4e2d5ab1a35de93c8"
+    }
+  ],
+  "verification": "Offline technical gates passed; browser/WebGL visual QA remains pending.",
+  "artifact_export_proof_sha256": "89a34fab74bfaca6ac5a42abf415eac83c54a8e3ba75f6fcebc034d284bce87a"
+}
